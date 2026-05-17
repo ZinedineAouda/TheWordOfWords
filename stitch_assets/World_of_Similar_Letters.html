@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+
+<html dir="rtl" lang="ar"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>World of Similar Letters</title>
+<!-- Material Symbols -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@600&amp;family=Plus+Jakarta+Sans:wght@400;500;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind CSS -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<!-- Tailwind Config -->
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "outline": "#6e7880",
+                    "on-background": "#1b1c1c",
+                    "on-secondary-fixed-variant": "#574500",
+                    "primary-fixed": "#c2e8ff",
+                    "surface-container-highest": "#e4e2e2",
+                    "inverse-surface": "#303030",
+                    "surface-dim": "#dbd9d9",
+                    "tertiary-fixed-dim": "#7bdb85",
+                    "secondary-fixed-dim": "#edc22e",
+                    "primary-fixed-dim": "#76d1ff",
+                    "tertiary": "#006e29",
+                    "surface-bright": "#fbf9f8",
+                    "surface-tint": "#006688",
+                    "on-error": "#ffffff",
+                    "tertiary-fixed": "#96f89f",
+                    "outline-variant": "#bdc8d0",
+                    "on-tertiary-fixed-variant": "#00531d",
+                    "on-primary": "#ffffff",
+                    "surface-container-lowest": "#ffffff",
+                    "surface": "#fbf9f8",
+                    "on-error-container": "#93000a",
+                    "inverse-on-surface": "#f2f0f0",
+                    "primary": "#006688",
+                    "on-surface": "#1b1c1c",
+                    "on-tertiary": "#ffffff",
+                    "on-primary-fixed": "#001e2c",
+                    "on-secondary-container": "#705900",
+                    "surface-container-low": "#f5f3f3",
+                    "secondary-fixed": "#ffe089",
+                    "error": "#ba1a1a",
+                    "on-tertiary-container": "#004919",
+                    "primary-container": "#40b5e8",
+                    "on-tertiary-fixed": "#002107",
+                    "on-surface-variant": "#3e484f",
+                    "on-secondary-fixed": "#241a00",
+                    "on-secondary": "#ffffff",
+                    "on-primary-container": "#00445c",
+                    "secondary-container": "#fcd03d",
+                    "inverse-primary": "#76d1ff",
+                    "tertiary-container": "#5dbd6b",
+                    "surface-container-high": "#eae8e7",
+                    "surface-container": "#efeded",
+                    "background": "#fbf9f8",
+                    "error-container": "#ffdad6",
+                    "surface-variant": "#e4e2e2",
+                    "secondary": "#745c00",
+                    "on-primary-fixed-variant": "#004d67"
+            },
+            "borderRadius": {
+                    "DEFAULT": "1rem",
+                    "lg": "2rem",
+                    "xl": "3rem",
+                    "full": "9999px"
+            },
+            "spacing": {
+                    "touch-target": "3.5rem",
+                    "stack-gap": "1rem",
+                    "gutter-md": "1.5rem",
+                    "margin-mobile": "1.25rem"
+            },
+            "fontFamily": {
+                    "label-bold": [
+                            "Lexend"
+                    ],
+                    "body-sm": [
+                            "Plus Jakarta Sans"
+                    ],
+                    "headline-md": [
+                            "Plus Jakarta Sans"
+                    ],
+                    "body-lg": [
+                            "Plus Jakarta Sans"
+                    ],
+                    "display-lg": [
+                            "Plus Jakarta Sans"
+                    ]
+            },
+            "fontSize": {
+                    "label-bold": [
+                            "18px",
+                            {
+                                    "lineHeight": "22px",
+                                    "fontWeight": "600"
+                            }
+                    ],
+                    "body-sm": [
+                            "16px",
+                            {
+                                    "lineHeight": "24px",
+                                    "fontWeight": "400"
+                            }
+                    ],
+                    "headline-md": [
+                            "32px",
+                            {
+                                    "lineHeight": "40px",
+                                    "fontWeight": "700"
+                            }
+                    ],
+                    "body-lg": [
+                            "20px",
+                            {
+                                    "lineHeight": "30px",
+                                    "fontWeight": "500"
+                            }
+                    ],
+                    "display-lg": [
+                            "48px",
+                            {
+                                    "lineHeight": "56px",
+                                    "fontWeight": "800"
+                            }
+                    ]
+            }
+          }
+        }
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background text-on-background font-body-sm h-screen w-screen overflow-hidden flex flex-col selection:bg-primary-container selection:text-on-primary-container">
+<!-- TopAppBar -->
+<header class="flex flex-row-reverse justify-between items-center w-full px-6 py-4 z-50 bg-sky-50 dark:bg-slate-900 shadow-[0_4px_10px_rgba(64,181,232,0.1)] flex-shrink-0">
+<!-- Trailing Action -->
+<div class="flex items-center gap-2 bg-surface-container-lowest rounded-full px-4 py-2 border-2 border-secondary-container shadow-sm">
+<span class="font-label-bold text-label-bold text-on-surface">⭐ 120</span>
+</div>
+<!-- Headline -->
+<h1 class="font-['Plus_Jakarta_Sans'] font-black text-xl text-[#40B5E8]">
+            عالم الاكتشاف
+        </h1>
+<!-- Leading Avatar -->
+<button class="w-touch-target h-touch-target rounded-full overflow-hidden border-2 border-primary-container shadow-sm hover:scale-105 transition-transform duration-200 active:translate-y-1 focus:outline-none focus:ring-4 focus:ring-primary-container">
+<img alt="صورة الطفل" class="w-full h-full object-cover" data-alt="Portrait of a happy child with bright eyes smiling on a soft blue background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBikTZoLzeSePUVce4m87qvMMNHvo1biPlSy8zi59WMfxV9G3hvQFmfFaDfPbCQeLU_GgxpFA2h2YQlPhNPZD6doKfCXbsUUgT4b_WNDiWaxoX80cnraK37DVqLBlitk9iSbb1CVBI8olAgtv92vkT_UGMKq-xl3IXoic_of1R3nIr-oifySH62RMAPLv4yT6dSNj_dASEQDqbZexixNw3-DkRlSZhOVgZOjEqZBlTsg4btJdizHBeXHUw03A8C54h8U_vEd-1pbFU"/>
+</button>
+</header>
+<!-- Main Game Canvas (Non-scrollable) -->
+<main class="flex-grow relative flex flex-col items-center justify-center px-4 py-6 overflow-hidden bg-gradient-to-b from-surface to-surface-container-low">
+<!-- Hint Bubble -->
+<div class="absolute top-8 left-8 flex flex-col items-center opacity-80 animate-pulse pointer-events-none">
+<div class="bg-surface-container-lowest rounded-xl p-4 shadow-sm border-2 border-outline-variant relative mb-2">
+<span class="material-symbols-outlined text-[48px] text-outline" data-icon="pets" data-weight="fill">pets</span>
+<!-- Bubble Tail -->
+<div class="absolute -bottom-3 left-1/2 -translate-x-1/2 w-4 h-4 bg-surface-container-lowest border-b-2 border-r-2 border-outline-variant rotate-45"></div>
+</div>
+</div>
+<!-- 4x4 Grid -->
+<div class="grid grid-cols-4 gap-4 md:gap-stack-gap max-w-md w-full aspect-square z-10">
+<!-- Row 1 -->
+<button class="w-full aspect-square rounded-full bg-primary-container text-on-primary-container border-b-[6px] border-primary active:border-b-0 active:translate-y-[6px] transition-all flex items-center justify-center font-display-lg text-display-lg shadow-sm focus:outline-none focus:ring-4 focus:ring-primary-fixed">
+                ج
+            </button>
+<button class="w-full aspect-square rounded-full bg-tertiary-container text-on-tertiary-container border-b-[6px] border-tertiary active:border-b-0 active:translate-y-[6px] transition-all flex items-center justify-center font-display-lg text-display-lg shadow-sm focus:outline-none focus:ring-4 focus:ring-tertiary-fixed">
+                ك
+            </button>
+<button class="w-full aspect-square rounded-full bg-secondary-container text-on-secondary-container border-b-[6px] border-secondary active:border-b-0 active:translate-y-[6px] transition-all flex items-center justify-center font-display-lg text-display-lg shadow-sm focus:outline-none focus:ring-4 focus:ring-secondary-fixed">
+                س
+            </button>
+<button class="w-full aspect-square rounded-full bg-error-container text-on-error-container border-b-[6px] border-error active:border-b-0 active:translate-y-[6px] transition-all flex items-center justify-center font-display-lg text-display-lg shadow-sm focus:outline-none focus:ring-4 focus:ring-error-container">
+                م
+            </button>
+<!-- Row 2 -->
+<button class="w-full aspect-square rounded-full bg-error-container text-on-error-container border-b-[6px] border-error active:border-b-0 active:translate-y-[6px] transition-all flex items-center justify-center font-display-lg text-display-lg shadow-sm focus:outline-none focus:ring-4 focus:ring-error-container">
+                م
+            </button>
+<button class="w-full aspect-square rounded-full bg-primary-container text-on-primary-container border-b-[6px] border-primary active:border-b-0 active:translate-y-[6px] transition-all flex items-center justify-center font-display-lg text-display-lg shadow-sm focus:outline-none focus:ring-4 focus:ring-primary-fixed">
+                ل
+            </button>
+<button class="w-full aspect-square rounded-full bg-surface-variant text-on-surface-variant border-b-[6px] border-outline active:border-b-0 active:translate-y-[6px] transition-all flex items-center justify-center font-display-lg text-display-lg shadow-sm focus:outline-none focus:ring-4 focus:ring-outline-variant">
+                د
+            </button>
+<button class="w-full aspect-square rounded-full bg-tertiary-container text-on-tertiary-container border-b-[6px] border-tertiary active:border-b-0 active:translate-y-[6px] transition-all flex items-center justify-center font-display-lg text-display-lg shadow-sm focus:outline-none focus:ring-4 focus:ring-tertiary-fixed">
+                ن
+            </button>
+<!-- Row 3 -->
+<button class="w-full aspect-square rounded-full bg-secondary-container text-on-secondary-container border-b-[6px] border-secondary active:border-b-0 active:translate-y-[6px] transition-all flex items-center justify-center font-display-lg text-display-lg shadow-sm focus:outline-none focus:ring-4 focus:ring-secondary-fixed">
+                س
+            </button>
+<button class="w-full aspect-square rounded-full bg-surface-variant text-on-surface-variant border-b-[6px] border-outline active:border-b-0 active:translate-y-[6px] transition-all flex items-center justify-center font-display-lg text-display-lg shadow-sm focus:outline-none focus:ring-4 focus:ring-outline-variant">
+                د
+            </button>
+<button class="w-full aspect-square rounded-full bg-primary-container text-on-primary-container border-b-[6px] border-primary active:border-b-0 active:translate-y-[6px] transition-all flex items-center justify-center font-display-lg text-display-lg shadow-sm focus:outline-none focus:ring-4 focus:ring-primary-fixed">
+                ج
+            </button>
+<button class="w-full aspect-square rounded-full bg-tertiary-container text-on-tertiary-container border-b-[6px] border-tertiary active:border-b-0 active:translate-y-[6px] transition-all flex items-center justify-center font-display-lg text-display-lg shadow-sm focus:outline-none focus:ring-4 focus:ring-tertiary-fixed">
+                ن
+            </button>
+<!-- Row 4 -->
+<button class="w-full aspect-square rounded-full bg-secondary-container text-on-secondary-container border-b-[6px] border-secondary active:border-b-0 active:translate-y-[6px] transition-all flex items-center justify-center font-display-lg text-display-lg shadow-sm focus:outline-none focus:ring-4 focus:ring-secondary-fixed">
+                ب
+            </button>
+<button class="w-full aspect-square rounded-full bg-error-container text-on-error-container border-b-[6px] border-error active:border-b-0 active:translate-y-[6px] transition-all flex items-center justify-center font-display-lg text-display-lg shadow-sm focus:outline-none focus:ring-4 focus:ring-error-container">
+                ط
+            </button>
+<button class="w-full aspect-square rounded-full bg-surface-variant text-on-surface-variant border-b-[6px] border-outline active:border-b-0 active:translate-y-[6px] transition-all flex items-center justify-center shadow-sm focus:outline-none focus:ring-4 focus:ring-outline-variant">
+<span class="material-symbols-outlined text-[40px]" data-icon="star" data-weight="fill">star</span>
+</button>
+<button class="w-full aspect-square rounded-full bg-error-container text-on-error-container border-b-[6px] border-error active:border-b-0 active:translate-y-[6px] transition-all flex items-center justify-center font-display-lg text-display-lg shadow-sm focus:outline-none focus:ring-4 focus:ring-error-container">
+                ط
+            </button>
+</div>
+</main>
+<!-- BottomNavBar -->
+<nav class="fixed bottom-0 left-0 w-full z-50 flex flex-row-reverse justify-around items-center px-4 pb-8 pt-3 bg-white dark:bg-slate-950 rounded-t-[40px] shadow-[0_-10px_30px_rgba(0,0,0,0.05)] flex-shrink-0">
+<!-- Tab 1: Inactive -->
+<button class="flex flex-col items-center justify-center text-slate-400 dark:text-slate-600 px-4 py-2 hover:bg-sky-50 dark:hover:bg-slate-800 transition-colors rounded-xl min-w-[72px]">
+<span class="material-symbols-outlined mb-1" data-icon="home">home</span>
+<span class="font-['Plus_Jakarta_Sans'] font-bold text-sm">الرئيسية</span>
+</button>
+<!-- Tab 2: Active (Games) -->
+<button class="flex flex-col items-center justify-center bg-sky-100 dark:bg-sky-900/50 text-sky-700 dark:text-sky-300 rounded-[24px] px-6 py-2 border-b-4 border-sky-300 dark:border-sky-700 hover:bg-sky-50 dark:hover:bg-slate-800 transition-colors active:scale-90 duration-150 min-w-[72px]">
+<span class="material-symbols-outlined mb-1" data-icon="sports_esports" data-weight="fill">sports_esports</span>
+<span class="font-['Plus_Jakarta_Sans'] font-bold text-sm">الألعاب</span>
+</button>
+<!-- Tab 3: Inactive -->
+<button class="flex flex-col items-center justify-center text-slate-400 dark:text-slate-600 px-4 py-2 hover:bg-sky-50 dark:hover:bg-slate-800 transition-colors rounded-xl min-w-[72px]">
+<span class="material-symbols-outlined mb-1" data-icon="shopping_bag">shopping_bag</span>
+<span class="font-['Plus_Jakarta_Sans'] font-bold text-sm">المتجر</span>
+</button>
+<!-- Tab 4: Inactive -->
+<button class="flex flex-col items-center justify-center text-slate-400 dark:text-slate-600 px-4 py-2 hover:bg-sky-50 dark:hover:bg-slate-800 transition-colors rounded-xl min-w-[72px]">
+<span class="material-symbols-outlined mb-1" data-icon="emoji_events">emoji_events</span>
+<span class="font-['Plus_Jakarta_Sans'] font-bold text-sm">إنجازاتي</span>
+</button>
+</nav>
+<!-- Spacer to prevent bottom nav from covering content on smaller screens if flex-grow fails -->
+<div class="h-24 flex-shrink-0"></div>
+</body></html>

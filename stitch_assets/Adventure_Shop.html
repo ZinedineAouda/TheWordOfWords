@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+
+<html dir="rtl" lang="ar"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>المتجر - عالم الاكتشاف</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@600&amp;family=Plus+Jakarta+Sans:wght@400;500;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "outline": "#6e7880",
+                        "on-background": "#1b1c1c",
+                        "on-secondary-fixed-variant": "#574500",
+                        "primary-fixed": "#c2e8ff",
+                        "surface-container-highest": "#e4e2e2",
+                        "inverse-surface": "#303030",
+                        "surface-dim": "#dbd9d9",
+                        "tertiary-fixed-dim": "#7bdb85",
+                        "secondary-fixed-dim": "#edc22e",
+                        "primary-fixed-dim": "#76d1ff",
+                        "tertiary": "#006e29",
+                        "surface-bright": "#fbf9f8",
+                        "surface-tint": "#006688",
+                        "on-error": "#ffffff",
+                        "tertiary-fixed": "#96f89f",
+                        "outline-variant": "#bdc8d0",
+                        "on-tertiary-fixed-variant": "#00531d",
+                        "on-primary": "#ffffff",
+                        "surface-container-lowest": "#ffffff",
+                        "surface": "#fbf9f8",
+                        "on-error-container": "#93000a",
+                        "inverse-on-surface": "#f2f0f0",
+                        "primary": "#006688",
+                        "on-surface": "#1b1c1c",
+                        "on-tertiary": "#ffffff",
+                        "on-primary-fixed": "#001e2c",
+                        "on-secondary-container": "#705900",
+                        "surface-container-low": "#f5f3f3",
+                        "secondary-fixed": "#ffe089",
+                        "error": "#ba1a1a",
+                        "on-tertiary-container": "#004919",
+                        "primary-container": "#40b5e8",
+                        "on-tertiary-fixed": "#002107",
+                        "on-surface-variant": "#3e484f",
+                        "on-secondary-fixed": "#241a00",
+                        "on-secondary": "#ffffff",
+                        "on-primary-container": "#00445c",
+                        "secondary-container": "#fcd03d",
+                        "inverse-primary": "#76d1ff",
+                        "tertiary-container": "#5dbd6b",
+                        "surface-container-high": "#eae8e7",
+                        "surface-container": "#efeded",
+                        "background": "#fbf9f8",
+                        "error-container": "#ffdad6",
+                        "surface-variant": "#e4e2e2",
+                        "secondary": "#745c00",
+                        "on-primary-fixed-variant": "#004d67"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "1rem",
+                        "lg": "2rem",
+                        "xl": "3rem",
+                        "full": "9999px"
+                    },
+                    "spacing": {
+                        "touch-target": "3.5rem",
+                        "stack-gap": "1rem",
+                        "gutter-md": "1.5rem",
+                        "margin-mobile": "1.25rem"
+                    },
+                    "fontFamily": {
+                        "label-bold": ["Lexend"],
+                        "body-sm": ["Plus Jakarta Sans"],
+                        "headline-md": ["Plus Jakarta Sans"],
+                        "body-lg": ["Plus Jakarta Sans"],
+                        "display-lg": ["Plus Jakarta Sans"]
+                    },
+                    "fontSize": {
+                        "label-bold": ["18px", { "lineHeight": "22px", "fontWeight": "600" }],
+                        "body-sm": ["16px", { "lineHeight": "24px", "fontWeight": "400" }],
+                        "headline-md": ["32px", { "lineHeight": "40px", "fontWeight": "700" }],
+                        "body-lg": ["20px", { "lineHeight": "30px", "fontWeight": "500" }],
+                        "display-lg": ["48px", { "lineHeight": "56px", "fontWeight": "800" }]
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        /* Custom scrollbar hiding for clean tabs */
+        .no-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+        .no-scrollbar {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background text-on-background font-body-sm antialiased selection:bg-primary-container selection:text-on-primary-container min-h-screen pb-32 pt-24">
+<!-- TopAppBar Shared Component -->
+<header class="fixed top-0 w-full z-50 bg-sky-50 dark:bg-slate-900 border-b-4 border-sky-200 dark:border-sky-800 shadow-[0_4px_10px_rgba(64,181,232,0.1)] flex flex-row-reverse justify-between items-center px-6 py-4">
+<!-- Leading Avatar -->
+<div class="w-12 h-12 rounded-full overflow-hidden border-2 border-primary-container shrink-0 shadow-sm bg-surface-container-high">
+<img alt="صورة الطفل" class="w-full h-full object-cover" data-alt="cute illustration of a happy child character looking curious with vibrant colors" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCuUf9B-rYlXV5PdpznXpwVsDujJDqikcZ-kczHWhXg-ExdDHGNjr2XvlAxt3gNnatoosQw5JVD_Ok4LLXGLlqWT1tJ8yGUlm2jpwDjdaFYX7Yd7a-1uPQguE7iNFwoVHqXhGBlqC53tLPiAzh65JKc290isQZzRDkvLGwRgNmFOwNzdfLZeslwH1PQ6CL0fE_fdSuCy2mES-83_4dDSSixbNfXT9pME82fdpthYEPjG-8RHpknD2J-FGuaOpOnESPawQuocmZqPFc"/>
+</div>
+<!-- Headline -->
+<h1 class="font-['Plus_Jakarta_Sans'] font-black text-xl text-[#40B5E8]">
+            عالم الاكتشاف
+        </h1>
+<!-- Trailing Action -->
+<div class="bg-secondary-container text-on-secondary-container px-4 py-2 rounded-full font-label-bold text-label-bold flex items-center gap-1 shadow-sm border-b-2 border-secondary/50">
+<span>⭐ 120</span>
+</div>
+</header>
+<main class="max-w-2xl mx-auto flex flex-col gap-stack-gap px-gutter-md">
+<!-- Shop Banner / Coin Balance Display -->
+<section class="bg-gradient-to-br from-primary-container to-primary-fixed-dim rounded-xl p-6 shadow-[0_8px_16px_rgba(64,181,232,0.2)] border-b-4 border-primary/20 relative overflow-hidden flex flex-col items-center justify-center text-center mt-4">
+<!-- Decorative background elements -->
+<div class="absolute -top-6 -right-6 w-24 h-24 bg-white/20 rounded-full blur-xl"></div>
+<div class="absolute -bottom-8 -left-8 w-32 h-32 bg-white/20 rounded-full blur-xl"></div>
+<span class="material-symbols-outlined text-5xl text-secondary-container drop-shadow-md mb-2" style="font-variation-settings: 'FILL' 1;">storefront</span>
+<h2 class="font-display-lg text-display-lg text-on-primary-container drop-shadow-sm mb-1">المتجر السحري</h2>
+<div class="bg-surface/90 backdrop-blur-sm rounded-full px-6 py-2 inline-flex items-center gap-2 shadow-sm border-2 border-surface-container-highest mt-2">
+<span class="font-body-lg text-body-lg text-on-surface-variant">رصيدك:</span>
+<span class="font-headline-md text-headline-md text-secondary flex items-center gap-1">
+<span class="material-symbols-outlined text-secondary" style="font-variation-settings: 'FILL' 1;">stars</span>
+                    120
+                </span>
+</div>
+</section>
+<!-- Tabbed Interface -->
+<nav class="flex gap-4 overflow-x-auto py-2 no-scrollbar -mx-gutter-md px-gutter-md">
+<button class="bg-tertiary-container text-on-tertiary-container px-8 h-touch-target rounded-full font-label-bold text-label-bold border-b-4 border-tertiary shadow-sm shrink-0 flex items-center justify-center min-w-[120px] active:translate-y-1 active:border-b-0 transition-all">
+                شخصيات
+            </button>
+<button class="bg-surface text-on-surface-variant px-8 h-touch-target rounded-full font-label-bold text-label-bold border-2 border-outline-variant shadow-sm shrink-0 flex items-center justify-center min-w-[120px] hover:bg-surface-variant active:scale-95 transition-all">
+                سمات
+            </button>
+</nav>
+<!-- Grid Items -->
+<section class="grid grid-cols-2 gap-4 mt-2">
+<!-- Item 1: Space Robot (Requested specifically) -->
+<div class="bg-surface rounded-xl border-2 border-outline-variant p-3 flex flex-col items-center gap-3 relative overflow-hidden shadow-[0_8px_16px_rgba(0,102,136,0.08)] group hover:-translate-y-1 transition-transform">
+<div class="w-full aspect-square bg-primary-fixed rounded-lg border-2 border-primary-fixed-dim relative overflow-hidden flex items-center justify-center">
+<div class="absolute inset-0 bg-gradient-to-b from-transparent to-black/10"></div>
+<img alt="روبوت الفضاء" class="w-4/5 h-4/5 object-contain group-hover:scale-110 transition-transform duration-300 relative z-10" data-alt="cute 3d rendered retro space robot toy character with bright blue and silver colors, glowing eyes on a light playful background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBzrFNRaO3Owz0v8n_6zYtC-YJxl33Oh9wXjBm1DEUJdB94Hauo3tdIS0D35NcWQWaC_w0x-FxCfIMhv8SmpYF9zVZTMX_Vl6xqMjKPw59B87byzbyYFl1x8mjz9xe-4rWdNKHISewQAHgwtRgVzTbI-0IE4K-2ZE9xSwpXJeMoYfwm1jq3K0HsGWcvnJ_RgUP5Yvrsw1kUFrUUZhOxtyf3tnH_BE-4_Jaznf0ZK-vxpDBiui70iTtephRkc4UTMuRvlbUm1ky3bg4"/>
+</div>
+<div class="flex flex-col items-center w-full gap-1">
+<h3 class="font-label-bold text-label-bold text-on-surface w-full text-center truncate">روبوت الفضاء</h3>
+<p class="font-body-sm text-sm text-on-surface-variant">مستكشف المجرات</p>
+</div>
+<button class="w-full bg-secondary-container text-on-secondary-container h-12 rounded-full font-label-bold text-body-lg border-b-4 border-secondary flex justify-center items-center gap-2 active:border-b-0 active:translate-y-1 transition-all">
+<span class="material-symbols-outlined text-lg" style="font-variation-settings: 'FILL' 1;">stars</span>
+                    150
+                </button>
+</div>
+<!-- Item 2: Locked/Expensive Item -->
+<div class="bg-surface rounded-xl border-2 border-outline-variant p-3 flex flex-col items-center gap-3 relative overflow-hidden shadow-[0_8px_16px_rgba(0,102,136,0.08)] group hover:-translate-y-1 transition-transform">
+<div class="w-full aspect-square bg-tertiary-fixed rounded-lg border-2 border-tertiary-fixed-dim relative overflow-hidden flex items-center justify-center">
+<div class="absolute inset-0 bg-gradient-to-b from-transparent to-black/10"></div>
+<img alt="الديناصور اللطيف" class="w-4/5 h-4/5 object-contain group-hover:scale-110 transition-transform duration-300 relative z-10" data-alt="cute 3d rendered friendly green dinosaur toy character wearing a tiny explorer hat on a light bright background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDSY8rNuYfUyw_XmfTvtrnFtXiX7rigQt_fDUkA3k3sa6NmxxsFH4m1Hc_rK-o8AXCFXlIfYZjejikefDIIdyMCuFdIUwYKAIW971u3NIsgaHhdotukS_KvBU-fQLMrh8bwN84SMQYBjkrvFdtiXS6JyZuFUNjzliEXAOBi-blRk2f42zgPUWH2Csx5-QFU2fQ5fjTrpUQdMzAzHeso39IB-s34CdKlYH6UNQqYRISAHZUhExfZUk9gWv12DB1OV5rOmqT9kZCvmDY"/>
+</div>
+<div class="flex flex-col items-center w-full gap-1">
+<h3 class="font-label-bold text-label-bold text-on-surface w-full text-center truncate">الديناصور اللطيف</h3>
+<p class="font-body-sm text-sm text-on-surface-variant">صديق الغابة</p>
+</div>
+<button class="w-full bg-surface-container-highest text-outline h-12 rounded-full font-label-bold text-body-lg border-b-4 border-outline-variant flex justify-center items-center gap-2 opacity-80 cursor-not-allowed">
+<span class="material-symbols-outlined text-lg" style="font-variation-settings: 'FILL' 1;">lock</span>
+                    300
+                </button>
+</div>
+<!-- Item 3: Owned Item -->
+<div class="bg-surface-container rounded-xl border-2 border-outline-variant/50 p-3 flex flex-col items-center gap-3 relative overflow-hidden opacity-90">
+<div class="w-full aspect-square bg-surface-container-high rounded-lg border-2 border-outline-variant/30 relative overflow-hidden flex items-center justify-center grayscale-[0.3]">
+<img alt="الساحر الصغير" class="w-4/5 h-4/5 object-contain" data-alt="cute 3d rendered magical wizard boy toy character with a tall starry blue hat and wand on a light background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBdO1IrLAkWY8UgsjVcZq1lBemfVHqRZ-kkAM2soAZXst4VQXISJIkIcHmY8CJDkN4vk7IuPKQf-SoN6Lp07YmjHC2Fd9ArrsaK5Bsczul1EZAJXDNGlv1vWu4mP-FsouyavKz1s_8uI3mai6hxeL0yQr1y_51rAdGQCqj3CL95FWwKWBJnpRDPAfP3uVcAql8Q-vBfUsH5wH9nSBonggvLr4JG31jVOSJqFgu_stgX_dxEXgNyvSqspLJYjRO5bWnrx6q0pjSCN0Q"/>
+</div>
+<div class="flex flex-col items-center w-full gap-1">
+<h3 class="font-label-bold text-label-bold text-on-surface-variant w-full text-center truncate">الساحر الصغير</h3>
+<p class="font-body-sm text-sm text-on-surface-variant">مبتدئ السحر</p>
+</div>
+<div class="w-full bg-surface-variant text-primary h-12 rounded-full font-label-bold text-body-lg border-2 border-outline-variant flex justify-center items-center gap-2">
+<span class="material-symbols-outlined text-lg" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+                    مملوك
+                </div>
+</div>
+<!-- Item 4: Affordable Item -->
+<div class="bg-surface rounded-xl border-2 border-outline-variant p-3 flex flex-col items-center gap-3 relative overflow-hidden shadow-[0_8px_16px_rgba(0,102,136,0.08)] group hover:-translate-y-1 transition-transform">
+<div class="w-full aspect-square bg-secondary-fixed rounded-lg border-2 border-secondary-fixed-dim relative overflow-hidden flex items-center justify-center">
+<div class="absolute inset-0 bg-gradient-to-b from-transparent to-black/10"></div>
+<img alt="قرصان البحر" class="w-4/5 h-4/5 object-contain group-hover:scale-110 transition-transform duration-300 relative z-10" data-alt="cute 3d rendered brave little pirate boy toy character with a striped shirt and tiny sword on a bright sandy background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDToyzcCY1r0Axnoyz6qctMEQ6QGKs6XkJFc4eNkx1axqkf5sb9J-TAyS9494b_VBSR8ic-tU94bJI9DMgBR1op42H3QTRxgvYw8S3aCFQFSQL4yJePMPflOA563ymyDHENYlSP5q9YCFFZg1OCzqxrpTpo78c5UlyNALeV8zVAMc19al6zUHtAcjqDjeR010Dph6oFAkHuQ1natS9YSmj2V2XG0eG0Iq0sgcAuxGG8K7bM5x8t2tKEww8opob0aATCg72TXGmCANQ"/>
+</div>
+<div class="flex flex-col items-center w-full gap-1">
+<h3 class="font-label-bold text-label-bold text-on-surface w-full text-center truncate">قرصان البحر</h3>
+<p class="font-body-sm text-sm text-on-surface-variant">صائد الكنوز</p>
+</div>
+<button class="w-full bg-secondary-container text-on-secondary-container h-12 rounded-full font-label-bold text-body-lg border-b-4 border-secondary flex justify-center items-center gap-2 active:border-b-0 active:translate-y-1 transition-all">
+<span class="material-symbols-outlined text-lg" style="font-variation-settings: 'FILL' 1;">stars</span>
+                    100
+                </button>
+</div>
+</section>
+</main>
+<!-- BottomNavBar Shared Component -->
+<nav class="fixed bottom-0 left-0 w-full z-50 flex flex-row-reverse justify-around items-center px-4 pb-8 pt-3 bg-white dark:bg-slate-950 rounded-t-[40px] border-t-4 border-sky-100 dark:border-sky-900 shadow-[0_-10px_30px_rgba(0,0,0,0.05)]">
+<!-- Tab 0: الرئيسية (Inactive) -->
+<a class="flex flex-col items-center justify-center text-slate-400 dark:text-slate-600 px-4 py-2 hover:bg-sky-50 dark:hover:bg-slate-800 transition-colors active:scale-90 duration-150" href="#">
+<span class="material-symbols-outlined text-2xl mb-1">home</span>
+<span class="font-['Plus_Jakarta_Sans'] font-bold text-sm">الرئيسية</span>
+</a>
+<!-- Tab 1: الألعاب (Inactive) -->
+<a class="flex flex-col items-center justify-center text-slate-400 dark:text-slate-600 px-4 py-2 hover:bg-sky-50 dark:hover:bg-slate-800 transition-colors active:scale-90 duration-150" href="#">
+<span class="material-symbols-outlined text-2xl mb-1">sports_esports</span>
+<span class="font-['Plus_Jakarta_Sans'] font-bold text-sm">الألعاب</span>
+</a>
+<!-- Tab 2: المتجر (Active - Semantic Match) -->
+<a class="flex flex-col items-center justify-center bg-sky-100 dark:bg-sky-900/50 text-sky-700 dark:text-sky-300 rounded-[24px] px-6 py-2 border-b-4 border-sky-300 dark:border-sky-700 hover:bg-sky-50 dark:hover:bg-slate-800 transition-colors active:scale-90 duration-150" href="#">
+<span class="material-symbols-outlined text-2xl mb-1" style="font-variation-settings: 'FILL' 1;">shopping_bag</span>
+<span class="font-['Plus_Jakarta_Sans'] font-bold text-sm">المتجر</span>
+</a>
+<!-- Tab 3: إنجازاتي (Inactive) -->
+<a class="flex flex-col items-center justify-center text-slate-400 dark:text-slate-600 px-4 py-2 hover:bg-sky-50 dark:hover:bg-slate-800 transition-colors active:scale-90 duration-150" href="#">
+<span class="material-symbols-outlined text-2xl mb-1">emoji_events</span>
+<span class="font-['Plus_Jakarta_Sans'] font-bold text-sm">إنجازاتي</span>
+</a>
+</nav>
+</body></html>

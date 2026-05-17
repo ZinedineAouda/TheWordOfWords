@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Asset Audit</title>
+    <style>
+        body { font-family: sans-serif; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 20px; padding: 20px; }
+        .item { border: 1px solid #ccc; padding: 10px; text-align: center; }
+        img { max-width: 100%; height: auto; border-radius: 8px; }
+        .filename { font-weight: bold; margin-top: 10px; word-break: break-all; }
+        .size { font-size: 0.8em; color: #666; }
+    </style>
+</head>
+<body>
+    <h1>Asset Audit - Exercises</h1>
+    <div class="grid" id="grid"></div>
+    <script>
+        const assets = [
+            "airplane.png", "airplane2.png", "animals_bee.png", "animals_birds.png", "animals_cat.png",
+            "animals_chick.png", "animals_deer.png", "animals_dog.png", "animals_elephant.png", "animals_fox.png",
+            "animals_giraffe.png", "animals_horse.png", "animals_kangaroo.png", "animals_lion.png", "animals_octopus.png",
+            "animals_penguin.png", "animals_sheep.png", "animals_whale.png", "apple.png", "bag.png", "balloon.png",
+            "bananas.png", "bee.png", "bicycle.png", "body_eye.png", "box.png", "bread.png", "bus.png", "car.png",
+            "car_w2.png", "cherries.png", "chick.png", "clock.png", "cloud.png", "deer.png", "eye.png", "fish.png",
+            "food_apple.png", "food_banana.png", "food_beetroot.png", "food_bread.png", "food_carrot.png",
+            "food_cherries.png", "food_grapes.png", "food_lettuce.png", "food_milk.png", "food_potatoes.png",
+            "food_tomato.png", "fox.png", "fruits_apple.png", "fruits_bananas.png", "fruits_cherries.png",
+            "fruits_grapes.png", "giraffe.png", "grapes.png", "horse.png", "hunger.png", "moon.png", "nature_desert.png",
+            "nature_flower.png", "nature_grass.png", "nature_log.png", "nature_moon.png", "nature_palm.png",
+            "nature_rain.png", "nature_sea.png", "nature_smoke.png", "nature_stars.png", "nature_tree.png",
+            "objects_airplane.png", "objects_bag.png", "objects_ball.png", "objects_bed.png", "objects_bike.png",
+            "objects_books.png", "objects_box.png", "objects_bus.png", "objects_car.png", "objects_computer.png",
+            "objects_drum.png", "objects_honey.png", "objects_light.png", "objects_lightbulb.png", "objects_log.png",
+            "objects_milk.png", "objects_painter.png", "objects_picture.png", "objects_school.png", "objects_scissors.png",
+            "objects_shirt.png", "objects_tent.png", "objects_train.png", "octopus.png", "octopus_del.png", "penguin.png",
+            "scissors.png", "sheep.png", "train.png", "transportation_airplane.png", "transportation_bicycle.png",
+            "transportation_bus.png", "transportation_car.png", "tree.png", "veg_carrot.png", "vegetables_carrot.png",
+            "vegetables_onion.png", "vegetables_potatoes.png", "vegetables_tomato.png", "w1_airplane.png", "w1_ball.png",
+            "w1_bicycle.png", "w1_bus.png", "w1_car.png", "w1_drum.png", "w1_light.png", "w1_tent.png", "w3_shams.png", "whale.png"
+        ];
+        const grid = document.getElementById('grid');
+        assets.forEach(asset => {
+            const item = document.createElement('div');
+            item.className = 'item';
+            const img = document.createElement('img');
+            img.src = `../../assets/images/exercises/${asset}`;
+            const name = document.createElement('div');
+            name.className = 'filename';
+            name.textContent = asset;
+            item.appendChild(img);
+            item.appendChild(name);
+            grid.appendChild(item);
+        });
+    </script>
+</body>
+</html>

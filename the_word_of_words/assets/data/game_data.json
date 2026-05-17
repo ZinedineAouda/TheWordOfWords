@@ -1,0 +1,1315 @@
+{
+  "worlds": [
+    {
+      "id": "world_1",
+      "title": "عالم الإبدال",
+      "description": "استبدل الحروف لتكوين كلمات جديدة",
+      "iconAsset": "assets/icons/switch_world.png",
+      "themeColor": "FF6B6B",
+      "isLocked": false,
+      "levels": [
+        {
+          "id": "world_1_lvl_1",
+          "title": "وسائل النقل",
+          "isLocked": false,
+          "layout": "list",
+          "exercises": [
+            {
+              "id": "w1_l1_1",
+              "type": "listDrag",
+              "imageAsset": "assets/images/exercises/objects_airplane.png",
+              "correctAnswer": "ط",
+              "hint": "ائرة",
+              "question": "طائرة",
+              "isLocked": false
+            },
+            {
+              "id": "w1_l1_2",
+              "type": "listDrag",
+              "imageAsset": "assets/images/exercises/objects_car.png",
+              "correctAnswer": "س",
+              "hint": "يارة",
+              "question": "سيارة",
+              "isLocked": false
+            },
+            {
+              "id": "w1_l1_3",
+              "type": "listDrag",
+              "imageAsset": "assets/images/exercises/objects_bus.png",
+              "correctAnswer": "ح",
+              "hint": "افلة",
+              "question": "حافلة",
+              "isLocked": false
+            },
+            {
+              "id": "w1_l1_4",
+              "type": "listDrag",
+              "imageAsset": "assets/images/exercises/objects_bicycle.png",
+              "correctAnswer": "د",
+              "hint": "راجة",
+              "question": "دراجة",
+              "isLocked": false
+            }
+          ]
+        },
+        {
+          "id": "world_1_lvl_2",
+          "title": "الفواكه",
+          "isLocked": false,
+          "layout": "list",
+          "exercises": [
+            {
+              "id": "w1_l2_1",
+              "type": "listDrag",
+              "imageAsset": "assets/images/exercises/food_cherries.png",
+              "correctAnswer": "ك",
+              "hint": "رز",
+              "question": "كرز",
+              "isLocked": false
+            },
+            {
+              "id": "w1_l2_2",
+              "type": "listDrag",
+              "imageAsset": "assets/images/exercises/food_banana.png",
+              "correctAnswer": "م",
+              "hint": "وز",
+              "question": "موز",
+              "isLocked": false
+            },
+            {
+              "id": "w1_l2_3",
+              "type": "listDrag",
+              "imageAsset": "assets/images/exercises/food_grapes.png",
+              "correctAnswer": "ع",
+              "hint": "نب",
+              "question": "عنب",
+              "isLocked": false
+            },
+            {
+              "id": "w1_l2_4",
+              "type": "listDrag",
+              "imageAsset": "assets/images/exercises/food_apple.png",
+              "correctAnswer": "ت",
+              "hint": "فاحة",
+              "question": "تفاحة",
+              "isLocked": false
+            }
+          ]
+        },
+        {
+          "id": "world_1_lvl_3",
+          "title": "الحيوانات",
+          "isLocked": false,
+          "layout": "list",
+          "exercises": [
+            {
+              "id": "w1_l3_1",
+              "type": "listDrag",
+              "imageAsset": "assets/images/exercises/animals_horse.png",
+              "correctAnswer": "ح",
+              "hint": "صان",
+              "question": "حصان",
+              "isLocked": false
+            },
+            {
+              "id": "w1_l3_2",
+              "type": "listDrag",
+              "imageAsset": "assets/images/exercises/animals_octopus.png",
+              "correctAnswer": "أ",
+              "hint": "خطبوط",
+              "question": "أخطبوط",
+              "isLocked": false
+            },
+            {
+              "id": "w1_l3_3",
+              "type": "listDrag",
+              "imageAsset": "assets/images/exercises/animals_fox.png",
+              "correctAnswer": "ث",
+              "hint": "علب",
+              "question": "ثعلب",
+              "isLocked": false
+            },
+            {
+              "id": "w1_l3_4",
+              "type": "listDrag",
+              "imageAsset": "assets/images/exercises/animals_giraffe.png",
+              "correctAnswer": "ز",
+              "hint": "رافة",
+              "question": "زرافة",
+              "isLocked": false
+            }
+          ]
+        },
+        {
+          "id": "world_1_lvl_4",
+          "title": "الطبيعة",
+          "isLocked": false,
+          "layout": "list",
+          "exercises": [
+            {
+              "id": "w1_l4_1",
+              "type": "listDrag",
+              "imageAsset": "assets/images/exercises/nature_log.png",
+              "correctAnswer": "خ",
+              "hint": "شب",
+              "question": "خشب",
+              "isLocked": false
+            },
+            {
+              "id": "w1_l4_2",
+              "type": "listDrag",
+              "imageAsset": "assets/images/exercises/nature_flower.png",
+              "correctAnswer": "ز",
+              "hint": "هرة",
+              "question": "زهرة",
+              "isLocked": false
+            },
+            {
+              "id": "w1_l4_3",
+              "type": "listDrag",
+              "imageAsset": "assets/images/exercises/nature_tree.png",
+              "correctAnswer": "ش",
+              "hint": "جرة",
+              "question": "شجرة",
+              "isLocked": false
+            },
+            {
+              "id": "w1_l4_4",
+              "type": "listDrag",
+              "imageAsset": "assets/images/exercises/nature_grass.png",
+              "correctAnswer": "ع",
+              "hint": "شب",
+              "question": "عشب",
+              "isLocked": false
+            }
+          ]
+        },
+        {
+          "id": "world_1_lvl_5",
+          "title": "الخضروات",
+          "isLocked": false,
+          "layout": "list",
+          "exercises": [
+            {
+              "id": "w1_l5_1",
+              "type": "listDrag",
+              "imageAsset": "assets/images/exercises/food_carrot.png",
+              "correctAnswer": "ج",
+              "hint": "زر",
+              "question": "جزر",
+              "isLocked": false
+            },
+            {
+              "id": "w1_l5_2",
+              "type": "listDrag",
+              "imageAsset": "assets/images/exercises/food_potatoes.png",
+              "correctAnswer": "ب",
+              "hint": "طاطا",
+              "question": "بطاطا",
+              "isLocked": false
+            },
+            {
+              "id": "w1_l5_3",
+              "type": "listDrag",
+              "imageAsset": "assets/images/exercises/food_tomato.png",
+              "correctAnswer": "ط",
+              "hint": "ماطم",
+              "question": "طماطم",
+              "isLocked": false
+            },
+            {
+              "id": "w1_l5_4",
+              "type": "listDrag",
+              "imageAsset": "assets/images/exercises/vegetables_onion.png",
+              "correctAnswer": "ب",
+              "hint": "صل",
+              "question": "بصل",
+              "isLocked": false
+            }
+          ]
+        },
+        {
+          "id": "world_1_lvl_6",
+          "title": "أسماء من حولنا",
+          "isLocked": false,
+          "layout": "list",
+          "exercises": [
+            {
+              "id": "w1_l6_1",
+              "type": "listDrag",
+              "imageAsset": "assets/images/exercises/objects_tent.png",
+              "correctAnswer": "خ",
+              "hint": "يمة",
+              "question": "خيمة",
+              "isLocked": false
+            },
+            {
+              "id": "w1_l6_2",
+              "type": "listDrag",
+              "imageAsset": "assets/images/exercises/objects_drum.png",
+              "correctAnswer": "ط",
+              "hint": "بل",
+              "question": "طبل",
+              "isLocked": false
+            },
+            {
+              "id": "w1_l6_3",
+              "type": "listDrag",
+              "imageAsset": "assets/images/exercises/objects_ball.png",
+              "correctAnswer": "ك",
+              "hint": "رة",
+              "question": "كرة",
+              "isLocked": false
+            },
+            {
+              "id": "w1_l6_4",
+              "type": "listDrag",
+              "imageAsset": "assets/images/exercises/objects_light_v2.png",
+              "correctAnswer": "ض",
+              "hint": "وء",
+              "question": "ضوء",
+              "isLocked": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world_2",
+      "title": "عالم القلب",
+      "description": "ميز بين الحروف المتشابهة في النطق",
+      "iconAsset": "assets/icons/turn_over_world.png",
+      "themeColor": "4ECDC4",
+      "isLocked": true,
+      "levels": [
+        {
+          "id": "world_2_lvl_1",
+          "title": "اختر الكلمة الصحيحة ١",
+          "isLocked": false,
+          "exercises": [
+            {
+              "id": "w2_l1_1",
+              "type": "imageChoice",
+              "imageAsset": "assets/images/exercises/animals_penguin_v2.png",
+              "correctAnswer": "بِطْريق",
+              "options": [
+                "بِطْريق",
+                "بِتْريق"
+              ],
+              "question": "اختر الكلمة الصحيحة",
+              "isLocked": false
+            },
+            {
+              "id": "w2_l1_2",
+              "type": "imageChoice",
+              "imageAsset": "assets/images/exercises/objects_box_v2.png",
+              "correctAnswer": "صُنْدوق",
+              "options": [
+                "صُنْدوق",
+                "سُنْدوق"
+              ],
+              "question": "اختر الكلمة الصحيحة",
+              "isLocked": false
+            },
+            {
+              "id": "w2_l1_3",
+              "type": "imageChoice",
+              "imageAsset": "assets/images/exercises/animals_chick_v2.png",
+              "correctAnswer": "صُوص",
+              "options": [
+                "صُوص",
+                "سُوس"
+              ],
+              "question": "اختر الكلمة الصحيحة",
+              "isLocked": false
+            },
+            {
+              "id": "w2_l1_4",
+              "type": "imageChoice",
+              "imageAsset": "assets/images/exercises/animals_deer.png",
+              "correctAnswer": "غَزَال",
+              "options": [
+                "غَزَال",
+                "خَزَال"
+              ],
+              "question": "اختر الكلمة الصحيحة",
+              "isLocked": false
+            },
+            {
+              "id": "w2_l1_5",
+              "type": "imageChoice",
+              "imageAsset": "assets/images/exercises/objects_train.png",
+              "correctAnswer": "قِطَار",
+              "options": [
+                "قِطَار",
+                "كِطَار"
+              ],
+              "question": "اختر الكلمة الصحيحة",
+              "isLocked": false
+            }
+          ]
+        },
+        {
+          "id": "world_2_lvl_2",
+          "title": "اختر الكلمة الصحيحة ٢",
+          "isLocked": false,
+          "exercises": [
+            {
+              "id": "w2_l1_6",
+              "type": "imageChoice",
+              "imageAsset": "assets/images/exercises/objects_scissors_v2.png",
+              "correctAnswer": "مِقَص",
+              "options": [
+                "مِقَص",
+                "مِكَس"
+              ],
+              "question": "اختر الكلمة الصحيحة",
+              "isLocked": false
+            },
+            {
+              "id": "w2_l1_7",
+              "type": "imageChoice",
+              "imageAsset": "assets/images/exercises/animals_whale_v2.png",
+              "correctAnswer": "حُوت",
+              "options": [
+                "حُوت",
+                "هُوت"
+              ],
+              "question": "اختر الكلمة الصحيحة",
+              "isLocked": false
+            },
+            {
+              "id": "w2_l1_8",
+              "type": "imageChoice",
+              "imageAsset": "assets/images/exercises/objects_airplane.png",
+              "correctAnswer": "طَائِرَة",
+              "options": [
+                "طَائِرَة",
+                "تَائِرَة"
+              ],
+              "question": "اختر الكلمة الصحيحة",
+              "isLocked": false
+            },
+            {
+              "id": "w2_l1_9",
+              "type": "imageChoice",
+              "imageAsset": "assets/images/exercises/objects_shirt_v2.png",
+              "correctAnswer": "قَمِيص",
+              "options": [
+                "قَمِيص",
+                "قَمِيس"
+              ],
+              "question": "اختر الكلمة الصحيحة",
+              "isLocked": false
+            },
+            {
+              "id": "w2_l1_10",
+              "type": "imageChoice",
+              "imageAsset": "assets/images/exercises/animals_cat_v2.png",
+              "correctAnswer": "قِطَّة",
+              "options": [
+                "قِطَّة",
+                "قِتَّة"
+              ],
+              "question": "اختر الكلمة الصحيحة",
+              "isLocked": false
+            }
+          ]
+        },
+        {
+          "id": "world_2_lvl_3",
+          "title": "اختر الكلمة الصحيحة ٣",
+          "isLocked": false,
+          "exercises": [
+            {
+              "id": "w2_l1_11",
+              "type": "imageChoice",
+              "imageAsset": "assets/images/exercises/objects_honey_v2.png",
+              "correctAnswer": "عسل",
+              "options": [
+                "عسل",
+                "عصل"
+              ],
+              "question": "اختر الكلمة الصحيحة",
+              "isLocked": false
+            },
+            {
+              "id": "w2_l1_12",
+              "type": "imageChoice",
+              "imageAsset": "assets/images/exercises/food_milk_v2.png",
+              "correctAnswer": "حليب",
+              "options": [
+                "حليب",
+                "هليب"
+              ],
+              "question": "اختر الكلمة الصحيحة",
+              "isLocked": false
+            },
+            {
+              "id": "w2_l1_13",
+              "type": "imageChoice",
+              "imageAsset": "assets/images/exercises/animals_sheep_v2.png",
+              "correctAnswer": "خروف",
+              "options": [
+                "خروف",
+                "غروف"
+              ],
+              "question": "اختر الكلمة الصحيحة",
+              "isLocked": false
+            },
+            {
+              "id": "w2_l1_14",
+              "type": "imageChoice",
+              "imageAsset": "assets/images/exercises/animals_dog_v2.png",
+              "correctAnswer": "كلب",
+              "options": [
+                "كلب",
+                "قلب"
+              ],
+              "question": "اختر الكلمة الصحيحة",
+              "isLocked": false
+            },
+            {
+              "id": "w2_l1_15",
+              "type": "imageChoice",
+              "imageAsset": "assets/images/exercises/objects_picture_v2.png",
+              "correctAnswer": "صورة",
+              "options": [
+                "صورة",
+                "سورة"
+              ],
+              "question": "اختر الكلمة الصحيحة",
+              "isLocked": false
+            }
+          ]
+        },
+        {
+          "id": "world_2_lvl_4",
+          "title": "اختر المقطع الصحيح ١",
+          "isLocked": false,
+          "exercises": [
+            {
+              "id": "w2_l2_1",
+              "type": "syllableCloud",
+              "correctAnswer": "رو",
+              "options": [
+                "رو",
+                "زو"
+              ],
+              "question": "خ.......وف",
+              "isLocked": false
+            },
+            {
+              "id": "w2_l2_2",
+              "type": "syllableCloud",
+              "correctAnswer": "طْر",
+              "options": [
+                "طْر",
+                "تْر"
+              ],
+              "question": "بِ.......يق",
+              "isLocked": false
+            },
+            {
+              "id": "w2_l2_3",
+              "type": "syllableCloud",
+              "correctAnswer": "د",
+              "options": [
+                "د",
+                "ت"
+              ],
+              "question": "صُنْ.......وق",
+              "isLocked": false
+            },
+            {
+              "id": "w2_l2_4",
+              "type": "syllableCloud",
+              "correctAnswer": "صُ",
+              "options": [
+                "صُ",
+                "سُ"
+              ],
+              "question": ".......وص",
+              "isLocked": false
+            },
+            {
+              "id": "w2_l2_5",
+              "type": "syllableCloud",
+              "correctAnswer": "زَ",
+              "options": [
+                "زَ",
+                "خَ"
+              ],
+              "question": "غَ.......ال",
+              "isLocked": false
+            }
+          ]
+        },
+        {
+          "id": "world_2_lvl_5",
+          "title": "اختر المقطع الصحيح ٢",
+          "isLocked": false,
+          "exercises": [
+            {
+              "id": "w2_l2_6",
+              "type": "syllableCloud",
+              "correctAnswer": "طَ",
+              "options": [
+                "طَ",
+                "تَ"
+              ],
+              "question": "قِ.......ار",
+              "isLocked": false
+            },
+            {
+              "id": "w2_l2_7",
+              "type": "syllableCloud",
+              "correctAnswer": "قَ",
+              "options": [
+                "قَ",
+                "كَ"
+              ],
+              "question": "مِ.......ص",
+              "isLocked": false
+            },
+            {
+              "id": "w2_l2_8",
+              "type": "syllableCloud",
+              "correctAnswer": "و",
+              "options": [
+                "و",
+                "ي"
+              ],
+              "question": "حُ.......ت",
+              "isLocked": false
+            },
+            {
+              "id": "w2_l2_9",
+              "type": "syllableCloud",
+              "correctAnswer": "مِ",
+              "options": [
+                "مِ",
+                "مَ"
+              ],
+              "question": "قَ.......يص",
+              "isLocked": false
+            },
+            {
+              "id": "w2_l2_10",
+              "type": "syllableCloud",
+              "correctAnswer": "طَّ",
+              "options": [
+                "طَّ",
+                "تَّ"
+              ],
+              "question": "قِ.......ة",
+              "isLocked": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world_3",
+      "title": "عالم الحروف المتشابهة",
+      "description": "ميز بين الحروف المتشابهة في الشكل",
+      "iconAsset": "assets/icons/similar_letters_world.png",
+      "themeColor": "FFD93D",
+      "isLocked": true,
+      "levels": [
+        {
+          "id": "world_3_lvl_1",
+          "title": "المستوى ١",
+          "isLocked": false,
+          "exercises": [
+            {
+              "id": "w3_l1_1",
+              "type": "eliminationAssembly",
+              "imageAsset": null,
+              "correctAnswer": "كلب",
+              "options": [
+                "ك",
+                "ـم",
+                "مـ",
+                "ـقـ",
+                "ـن",
+                "ل",
+                "ـنـ",
+                "ب",
+                "ـق"
+              ],
+              "question": "احذف الحروف المتشابهة لتكتشف الكلمة المفقودة",
+              "isLocked": false
+            },
+            {
+              "id": "w3_l1_2",
+              "type": "eliminationAssembly",
+              "imageAsset": null,
+              "correctAnswer": "شمس",
+              "options": [
+                "ش",
+                "ـخ",
+                "م",
+                "ـثـ",
+                "ـذ",
+                "ذ",
+                "ـخـ",
+                "س",
+                "ثـ"
+              ],
+              "question": "احذف الحروف المتشابهة لتكتشف الكلمة المفقودة",
+              "isLocked": false
+            },
+            {
+              "id": "w3_l1_3",
+              "type": "eliminationAssembly",
+              "imageAsset": null,
+              "correctAnswer": "يدك",
+              "options": [
+                "ي",
+                "ر",
+                "د",
+                "ك",
+                "ـف",
+                "ـو",
+                "و",
+                "ـر",
+                "ـفـ"
+              ],
+              "question": "احذف الحروف المتشابهة لتكتشف الكلمة المفقودة",
+              "isLocked": false
+            }
+          ]
+        },
+        {
+          "id": "world_3_lvl_2",
+          "title": "المستوى ٢",
+          "isLocked": false,
+          "exercises": [
+            {
+              "id": "w3_l2_1",
+              "type": "eliminationAssembly",
+              "imageAsset": null,
+              "correctAnswer": "نمر",
+              "options": [
+                "ـح",
+                "ظـ",
+                "ر",
+                "ـظـ",
+                "حـ",
+                "ن",
+                "ـب",
+                "م",
+                "بـ"
+              ],
+              "question": "احذف الحروف المتشابهة لتكتشف الكلمة المفقودة",
+              "isLocked": false
+            },
+            {
+              "id": "w3_l2_2",
+              "type": "eliminationAssembly",
+              "imageAsset": null,
+              "correctAnswer": "أنف",
+              "options": [
+                "أ",
+                "ن",
+                "ف",
+                "ـي",
+                "يـ",
+                "ـش",
+                "ضـ",
+                "ـض",
+                "شـ"
+              ],
+              "question": "احذف الحروف المتشابهة لتكتشف الكلمة المفقودة",
+              "isLocked": false
+            },
+            {
+              "id": "w3_l2_3",
+              "type": "eliminationAssembly",
+              "imageAsset": null,
+              "correctAnswer": "قلم",
+              "options": [
+                "ق",
+                "ـغـ",
+                "ل",
+                "غـ",
+                "م",
+                "ـع",
+                "عـ",
+                "ـغ",
+                "ع"
+              ],
+              "question": "احذف الحروف المتشابهة لتكتشف الكلمة المفقودة",
+              "isLocked": false
+            }
+          ]
+        },
+        {
+          "id": "world_3_lvl_3",
+          "title": "المستوى ٣",
+          "isLocked": false,
+          "exercises": [
+            {
+              "id": "w3_l3_1",
+              "type": "syllableCloud",
+              "imageAsset": null,
+              "correctAnswer": "با",
+              "options": [
+                "با",
+                "نا"
+              ],
+              "question": ".........ع",
+              "isLocked": false
+            },
+            {
+              "id": "w3_l3_2",
+              "type": "syllableCloud",
+              "imageAsset": null,
+              "correctAnswer": "ذا",
+              "options": [
+                "دا",
+                "ذا"
+              ],
+              "question": ".........ب",
+              "isLocked": false
+            },
+            {
+              "id": "w3_l3_3",
+              "type": "syllableCloud",
+              "imageAsset": null,
+              "correctAnswer": "خا",
+              "options": [
+                "جا",
+                "خا"
+              ],
+              "question": ".........ف",
+              "isLocked": false
+            }
+          ]
+        },
+        {
+          "id": "world_3_lvl_4",
+          "title": "المستوى ٤",
+          "isLocked": false,
+          "exercises": [
+            {
+              "id": "w3_l4_1",
+              "type": "syllableCloud",
+              "imageAsset": null,
+              "correctAnswer": "طا",
+              "options": [
+                "ظا",
+                "طا"
+              ],
+              "question": ".........ر",
+              "isLocked": false
+            },
+            {
+              "id": "w3_l4_2",
+              "type": "syllableCloud",
+              "imageAsset": null,
+              "correctAnswer": "نا",
+              "options": [
+                "نا",
+                "تا"
+              ],
+              "question": ".........م",
+              "isLocked": false
+            },
+            {
+              "id": "w3_l4_3",
+              "type": "syllableCloud",
+              "imageAsset": null,
+              "correctAnswer": "فا",
+              "options": [
+                "فا",
+                "قا"
+              ],
+              "question": ".........ز",
+              "isLocked": false
+            }
+          ]
+        },
+        {
+          "id": "world_3_lvl_5",
+          "title": "المستوى ٥",
+          "isLocked": false,
+          "exercises": [
+            {
+              "id": "w3_l5_1",
+              "type": "syllableCloud",
+              "imageAsset": null,
+              "correctAnswer": "جا",
+              "options": [
+                "خا",
+                "جا"
+              ],
+              "question": ".........ء",
+              "isLocked": false
+            },
+            {
+              "id": "w3_l5_2",
+              "type": "syllableCloud",
+              "imageAsset": null,
+              "correctAnswer": "عا",
+              "options": [
+                "غا",
+                "عا"
+              ],
+              "question": ".........د",
+              "isLocked": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world_4",
+      "title": "عالم الحذف",
+      "description": "اكتشف الحرف الناقص في الكلمة",
+      "iconAsset": "assets/icons/deletion_world.png",
+      "themeColor": "6C5CE7",
+      "isLocked": true,
+      "levels": [
+        {
+          "id": "world_4_lvl_1",
+          "title": "المستوى ١ (اختر الحرف الناقص)",
+          "isLocked": false,
+          "exercises": [
+            {
+              "id": "w4_a1_1",
+              "type": "missingLetter",
+              "imageAsset": "assets/images/exercises/objects_bag.png",
+              "correctAnswer": "ي",
+              "options": [
+                "ي",
+                "ب",
+                "ل",
+                "ت",
+                "ث",
+                "س",
+                "ش",
+                "ف"
+              ],
+              "question": "حقـ.....ـبة",
+              "interactionType": "click",
+              "isLocked": false
+            },
+            {
+              "id": "w4_a1_2",
+              "type": "missingLetter",
+              "imageAsset": "assets/images/exercises/animals_bee_v2.png",
+              "correctAnswer": "ح",
+              "options": [
+                "ح",
+                "خ",
+                "ج",
+                "ب",
+                "ت",
+                "ث",
+                "ر",
+                "ز"
+              ],
+              "question": "نـ.....ـلة",
+              "interactionType": "click",
+              "isLocked": false
+            },
+            {
+              "id": "w4_a1_3",
+              "type": "missingLetter",
+              "imageAsset": "assets/images/exercises/hunger.png",
+              "correctAnswer": "ا",
+              "options": [
+                "ا",
+                "و",
+                "ي",
+                "ب",
+                "ل",
+                "م",
+                "ن",
+                "ت"
+              ],
+              "question": "جـ.....ئع",
+              "interactionType": "click",
+              "isLocked": false
+            }
+          ]
+        },
+        {
+          "id": "world_4_lvl_2",
+          "title": "المستوى ٢ (اختر الحرف الناقص)",
+          "isLocked": false,
+          "exercises": [
+            {
+              "id": "w4_a1_4",
+              "type": "missingLetter",
+              "imageAsset": "assets/images/exercises/body_eye.png",
+              "correctAnswer": "ي",
+              "options": [
+                "ي",
+                "ن",
+                "م",
+                "ب",
+                "ت",
+                "ث",
+                "ج",
+                "ح"
+              ],
+              "question": "عـ.....ن",
+              "interactionType": "click",
+              "isLocked": false
+            },
+            {
+              "id": "w4_a1_5",
+              "type": "missingLetter",
+              "imageAsset": "assets/images/exercises/nature_moon.png",
+              "correctAnswer": "م",
+              "options": [
+                "م",
+                "ن",
+                "ل",
+                "ك",
+                "ق",
+                "ف",
+                "ع",
+                "غ"
+              ],
+              "question": "قـ.....ر",
+              "interactionType": "click",
+              "isLocked": false
+            },
+            {
+              "id": "w4_a1_6",
+              "type": "missingLetter",
+              "imageAsset": "assets/images/exercises/food_bread.png",
+              "correctAnswer": "خ",
+              "options": [
+                "خ",
+                "ح",
+                "ج",
+                "د",
+                "ذ",
+                "ر",
+                "ز",
+                "س"
+              ],
+              "question": ".....ـبز",
+              "interactionType": "click",
+              "isLocked": false
+            }
+          ]
+        },
+        {
+          "id": "world_4_lvl_3",
+          "title": "المستوى ٣ (اختر الحرف الناقص)",
+          "isLocked": false,
+          "exercises": [
+            {
+              "id": "w4_a1_7",
+              "type": "missingLetter",
+              "imageAsset": "assets/images/exercises/colors_red.png",
+              "correctAnswer": "أ",
+              "options": [
+                "أ",
+                "ب",
+                "ت",
+                "ث",
+                "ج",
+                "ح",
+                "خ",
+                "د"
+              ],
+              "question": ".....حمر",
+              "interactionType": "click",
+              "isLocked": false
+            },
+            {
+              "id": "w4_a1_8",
+              "type": "missingLetter",
+              "imageAsset": "assets/images/exercises/food_banana.png",
+              "correctAnswer": "م",
+              "options": [
+                "م",
+                "ن",
+                "ب",
+                "ي",
+                "و",
+                "ر",
+                "ل",
+                "ك"
+              ],
+              "question": ".....وز",
+              "interactionType": "click",
+              "isLocked": false
+            },
+            {
+              "id": "w4_a1_9",
+              "type": "missingLetter",
+              "imageAsset": "assets/images/exercises/animals_giraffe.png",
+              "correctAnswer": "ز",
+              "options": [
+                "ز",
+                "ر",
+                "د",
+                "ذ",
+                "س",
+                "ش",
+                "ص",
+                "ض"
+              ],
+              "question": ".....رافة",
+              "interactionType": "click",
+              "isLocked": false
+            }
+          ]
+        },
+        {
+          "id": "world_4_lvl_4",
+          "title": "المستوى ٤ (اسحب الحرف الناقص)",
+          "isLocked": false,
+          "exercises": [
+            {
+              "id": "w4_a2_1",
+              "type": "missingLetter",
+              "imageAsset": null,
+              "correctAnswer": "ث",
+              "options": [
+                "ث",
+                "س",
+                "ج"
+              ],
+              "question": "? ـعلب",
+              "interactionType": "drag",
+              "isLocked": false
+            },
+            {
+              "id": "w4_a2_2",
+              "type": "missingLetter",
+              "imageAsset": null,
+              "correctAnswer": "م",
+              "options": [
+                "م",
+                "ح",
+                "ن"
+              ],
+              "question": "جـ ? ـل",
+              "interactionType": "drag",
+              "isLocked": false
+            },
+            {
+              "id": "w4_a2_3",
+              "type": "missingLetter",
+              "imageAsset": null,
+              "correctAnswer": "ح",
+              "options": [
+                "ح",
+                "ب",
+                "ع"
+              ],
+              "question": "تُفا ? ",
+              "interactionType": "drag",
+              "isLocked": false
+            }
+          ]
+        },
+        {
+          "id": "world_4_lvl_5",
+          "title": "المستوى ٥ (اسحب الحرف الناقص)",
+          "isLocked": false,
+          "exercises": [
+            {
+              "id": "w4_a2_4",
+              "type": "missingLetter",
+              "imageAsset": null,
+              "correctAnswer": "خ",
+              "options": [
+                "خ",
+                "ج",
+                "ح"
+              ],
+              "question": "? ـوخ",
+              "interactionType": "drag",
+              "isLocked": false
+            },
+            {
+              "id": "w4_a2_5",
+              "type": "missingLetter",
+              "imageAsset": null,
+              "correctAnswer": "ي",
+              "options": [
+                "ي",
+                "ج",
+                "ر"
+              ],
+              "question": "بَطْ ? خ",
+              "interactionType": "drag",
+              "isLocked": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world_5",
+      "title": "عالم الإضافة",
+      "description": "اقرأ الجملة بتركيز ثم اكتشف الكلمة التي أضيفت",
+      "iconAsset": "assets/icons/addition_world.png",
+      "themeColor": "A8E6CF",
+      "isLocked": false,
+      "levels": [
+        {
+          "id": "world_5_lvl_1",
+          "title": "المستوى ١: الجمل الأساسية",
+          "isLocked": false,
+          "exercises": [
+            {
+              "id": "ex_w5_1",
+              "type": "sentenceAddition",
+              "correctAnswer": "صباحا",
+              "options": [
+                "صباحا",
+                "مساءً",
+                "ظهراً"
+              ],
+              "question": "ذهب وليد الى المدرسة",
+              "hint": "ذهب وليد الى المدرسة صباحا",
+              "isLocked": false
+            },
+            {
+              "id": "ex_w5_2",
+              "type": "sentenceAddition",
+              "correctAnswer": "في العالم",
+              "options": [
+                "في العالم",
+                "في البيت",
+                "في الفصل"
+              ],
+              "question": "الحاسوب أسرع وأقوى جهاز",
+              "hint": "الحاسوب أسرع وأقوى جهاز في العالم",
+              "isLocked": false
+            },
+            {
+              "id": "ex_w5_3",
+              "type": "sentenceAddition",
+              "correctAnswer": "خطيرة",
+              "options": [
+                "خطيرة",
+                "جميلة",
+                "صغيرة"
+              ],
+              "question": "يوجد في البحر اسماك",
+              "hint": "يوجد في البحر اسماك خطيرة",
+              "isLocked": false
+            },
+            {
+              "id": "ex_w5_4",
+              "type": "sentenceAddition",
+              "correctAnswer": "الزرقاء",
+              "options": [
+                "الزرقاء",
+                "السوداء",
+                "البعيدة"
+              ],
+              "question": "النجوم تظهر في السماء",
+              "hint": "النجوم تظهر في السماء الزرقاء",
+              "isLocked": false
+            }
+          ]
+        },
+        {
+          "id": "world_5_lvl_2",
+          "title": "المستوى ٢: الصفات والحركة",
+          "isLocked": false,
+          "exercises": [
+            {
+              "id": "ex_w5_5",
+              "type": "sentenceAddition",
+              "correctAnswer": "عاليا",
+              "options": [
+                "عاليا",
+                "بعيدا",
+                "سريعا"
+              ],
+              "question": "قفز الكنغر",
+              "hint": "قفز الكنغر عاليا",
+              "isLocked": false
+            },
+            {
+              "id": "ex_w5_6",
+              "type": "sentenceAddition",
+              "correctAnswer": "ضخما",
+              "options": [
+                "ضخما",
+                "صغيرا",
+                "جميلا"
+              ],
+              "question": "شاهدت فيلا",
+              "hint": "شاهدت فيلا ضخما",
+              "isLocked": false
+            },
+            {
+              "id": "ex_w5_7",
+              "type": "sentenceAddition",
+              "correctAnswer": "البارد",
+              "options": [
+                "البارد",
+                "الساخن",
+                "الحلو"
+              ],
+              "question": "شرب الطفل العصير",
+              "hint": "شرب الطفل العصير البارد",
+              "isLocked": false
+            }
+          ]
+        },
+        {
+          "id": "world_5_lvl_3",
+          "title": "المستوى ٣: التحدي المتقدم",
+          "isLocked": false,
+          "exercises": [
+            {
+              "id": "ex_w5_8",
+              "type": "sentenceAddition",
+              "correctAnswer": "فوق الشجرة",
+              "options": [
+                "فوق الشجرة",
+                "تحت الشجرة",
+                "في القفص"
+              ],
+              "question": "غرد العصفور",
+              "hint": "غرد العصفور فوق الشجرة",
+              "isLocked": false
+            },
+            {
+              "id": "ex_w5_9",
+              "type": "sentenceAddition",
+              "correctAnswer": "الذهبية",
+              "options": [
+                "الذهبية",
+                "الساطعة",
+                "الحارة"
+              ],
+              "question": "أشرقت الشمس",
+              "hint": "أشرقت الشمس الذهبية",
+              "isLocked": false
+            },
+            {
+              "id": "ex_w5_10",
+              "type": "sentenceAddition",
+              "correctAnswer": "بغزارة",
+              "options": [
+                "بغزارة",
+                "بهدوء",
+                "قليلا"
+              ],
+              "question": "نزل المطر",
+              "hint": "نزل المطر بغزارة",
+              "isLocked": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

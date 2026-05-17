@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+
+<html class="light" dir="rtl" lang="ar"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport"/>
+<title>لعبة الحروف</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@400..800&amp;family=Plus+Jakarta+Sans:wght@400..800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              "colors": {
+                      "outline": "#6e7880",
+                      "on-background": "#1b1c1c",
+                      "on-secondary-fixed-variant": "#574500",
+                      "primary-fixed": "#c2e8ff",
+                      "surface-container-highest": "#e4e2e2",
+                      "inverse-surface": "#303030",
+                      "surface-dim": "#dbd9d9",
+                      "tertiary-fixed-dim": "#7bdb85",
+                      "secondary-fixed-dim": "#edc22e",
+                      "primary-fixed-dim": "#76d1ff",
+                      "tertiary": "#006e29",
+                      "surface-bright": "#fbf9f8",
+                      "surface-tint": "#006688",
+                      "on-error": "#ffffff",
+                      "tertiary-fixed": "#96f89f",
+                      "outline-variant": "#bdc8d0",
+                      "on-tertiary-fixed-variant": "#00531d",
+                      "on-primary": "#ffffff",
+                      "surface-container-lowest": "#ffffff",
+                      "surface": "#fbf9f8",
+                      "on-error-container": "#93000a",
+                      "inverse-on-surface": "#f2f0f0",
+                      "primary": "#006688",
+                      "on-surface": "#1b1c1c",
+                      "on-tertiary": "#ffffff",
+                      "on-primary-fixed": "#001e2c",
+                      "on-secondary-container": "#705900",
+                      "surface-container-low": "#f5f3f3",
+                      "secondary-fixed": "#ffe089",
+                      "error": "#ba1a1a",
+                      "on-tertiary-container": "#004919",
+                      "primary-container": "#40b5e8",
+                      "on-tertiary-fixed": "#002107",
+                      "on-surface-variant": "#3e484f",
+                      "on-secondary-fixed": "#241a00",
+                      "on-secondary": "#ffffff",
+                      "on-primary-container": "#00445c",
+                      "secondary-container": "#fcd03d",
+                      "inverse-primary": "#76d1ff",
+                      "tertiary-container": "#5dbd6b",
+                      "surface-container-high": "#eae8e7",
+                      "surface-container": "#efeded",
+                      "background": "#fbf9f8",
+                      "error-container": "#ffdad6",
+                      "surface-variant": "#e4e2e2",
+                      "secondary": "#745c00",
+                      "on-primary-fixed-variant": "#004d67"
+              },
+              "borderRadius": {
+                      "DEFAULT": "1rem",
+                      "lg": "2rem",
+                      "xl": "3rem",
+                      "full": "9999px"
+              },
+              "spacing": {
+                      "touch-target": "3.5rem",
+                      "stack-gap": "1rem",
+                      "gutter-md": "1.5rem",
+                      "margin-mobile": "1.25rem"
+              },
+              "fontFamily": {
+                      "label-bold": ["Lexend"],
+                      "body-sm": ["Plus Jakarta Sans"],
+                      "headline-md": ["Plus Jakarta Sans"],
+                      "body-lg": ["Plus Jakarta Sans"],
+                      "display-lg": ["Plus Jakarta Sans"]
+              },
+              "fontSize": {
+                      "label-bold": ["18px", {"lineHeight": "22px", "fontWeight": "600"}],
+                      "body-sm": ["16px", {"lineHeight": "24px", "fontWeight": "400"}],
+                      "headline-md": ["32px", {"lineHeight": "40px", "fontWeight": "700"}],
+                      "body-lg": ["20px", {"lineHeight": "30px", "fontWeight": "500"}],
+                      "display-lg": ["48px", {"lineHeight": "56px", "fontWeight": "800"}]
+              }
+            }
+          }
+        }
+    </script>
+<style>
+        /* Ensuring strict non-scrollable view for games */
+        body { overscroll-behavior-y: none; }
+        .material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24; }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background text-on-background font-body-sm text-body-sm h-screen w-screen overflow-hidden flex flex-col relative selection:bg-primary-container selection:text-on-primary-container">
+<!-- TopAppBar -->
+<header class="bg-sky-50 dark:bg-slate-900 border-b-4 border-sky-100 dark:border-sky-900 shadow-[0_4px_10px_rgba(64,181,232,0.1)] flex flex-row-reverse justify-between items-center w-full px-6 py-4 z-50 absolute top-0 left-0">
+<!-- Leading: Avatar -->
+<div class="w-12 h-12 rounded-full overflow-hidden border-2 border-sky-300 shadow-sm bg-white shrink-0 hover:scale-105 transition-transform duration-200 cursor-pointer">
+<img alt="صورة الطفل" class="w-full h-full object-cover" data-alt="cute cartoon avatar of a child with smiling face and bright background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDIcg_M2ZbIOPLdCbq-WtouUHfs4AeUQ1MfWfSuaA--AXqrKPAs_K3EoEUMWoX1x8ANuWcIP-9rWsCU7Dws_hPApfmfm5sPQNYwSkDPIdNOKh8Z-yJjxRXCSgelAPxTNkdLUHY8Rxd2q2rIkKKo4bMarqE6Vp_OPfVKne7OzpHkmWttIGu2fkI17RGVPCFLlvTXMqVQoQtccihJQCUN-lWzj0CbPLzmEo-5Y0DAzOqH1K7QyD6wqoS3qd--C2OhjKOequS2ULCDcoQ"/>
+</div>
+<!-- Headline -->
+<h1 class="font-['Plus_Jakarta_Sans'] font-black text-xl text-[#40B5E8]">عالم الاكتشاف</h1>
+<!-- Trailing: Action -->
+<button class="bg-white dark:bg-slate-800 rounded-full px-4 py-2 flex items-center gap-1 font-label-bold text-label-bold text-secondary-container shadow-sm border-b-4 border-surface-variant active:translate-y-1 active:border-b-0 transition-all shrink-0">
+<span>⭐</span>
+<span class="mt-1">120</span>
+</button>
+</header>
+<!-- Main Game Canvas -->
+<main class="flex-1 w-full h-full flex flex-col items-center justify-center relative pt-24 pb-28 px-4 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-surface-bright via-background to-surface-container-low">
+<!-- Back Button (Contextual for Game Screen) -->
+<div class="absolute top-24 right-4 z-10">
+<button aria-label="رجوع" class="w-12 h-12 rounded-full bg-white border-b-4 border-outline-variant shadow-sm flex items-center justify-center text-outline hover:scale-105 active:translate-y-1 active:border-b-0 transition-all">
+<span class="material-symbols-outlined text-[28px]" style="font-variation-settings: 'wght' 600;">arrow_forward</span>
+</button>
+</div>
+<!-- Image Tile (The Bee) -->
+<div class="relative w-48 h-48 md:w-56 md:h-56 rounded-[2rem] bg-white border-[3px] border-surface-variant shadow-[0_12px_32px_rgba(64,181,232,0.15)] p-3 mb-6 transform hover:scale-105 transition-transform duration-300">
+<div class="w-full h-full rounded-2xl overflow-hidden bg-primary-fixed/20 flex items-center justify-center">
+<img alt="نحلة" class="w-full h-full object-cover mix-blend-multiply" data-alt="vibrant, highly detailed 3d cartoon illustration of a cute, friendly bumblebee with big eyes, flying in a sunlit meadow, bright inviting colors" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAYOFTB61N8AQe0srZHI4mBBThVT-XBtreGMV80HUAVQdkzhvAJqjvmvPHQPhJAJnEA7gICQDFSPNIBYsCpfCqLfS4RukjlvRbzWV2EaSXnE2G1TifNYypbqg3R0etiQHC1AaZ-JfalIfIPSMxWJQtZ819ETzhu83DMmuxJoP37Cz8pJ71dDIW7rbhJMpMv2RGBWGG0SPmihK3Z_SdLIGtFh_XFZhCk7eSyqIhsLkt11YULuV3-tOrZV9x6YS9HXKKNNyMv5Zr_Eoo"/>
+</div>
+<!-- Decorative sparkle -->
+<div class="absolute -top-3 -right-3 text-secondary-container text-3xl animate-bounce">✨</div>
+</div>
+<!-- Word Puzzle Container -->
+<div class="flex flex-row items-center justify-center gap-2 md:gap-4 bg-white px-6 py-5 rounded-[2.5rem] border-b-[6px] border-surface-variant shadow-inner mb-10 min-w-[280px]">
+<!-- Right-most letter (N) -->
+<div class="w-14 h-16 flex items-center justify-center">
+<span class="font-display-lg text-display-lg text-primary select-none mt-2">ن</span>
+</div>
+<!-- Missing Letter Slot -->
+<div class="w-16 h-16 rounded-[1.5rem] bg-surface-container-highest border-4 border-dashed border-outline-variant shadow-inner flex items-center justify-center mx-1">
+<span class="w-6 h-1 bg-outline rounded-full opacity-50"></span>
+</div>
+<!-- Next letter (L) -->
+<div class="w-14 h-16 flex items-center justify-center">
+<span class="font-display-lg text-display-lg text-primary select-none mt-2">ل</span>
+</div>
+<!-- Left-most letter (Tamarbuta) -->
+<div class="w-14 h-16 flex items-center justify-center">
+<span class="font-display-lg text-display-lg text-primary select-none mt-2">ة</span>
+</div>
+</div>
+<!-- Interactive Choices (Bubbles) -->
+<div class="flex flex-row items-end justify-center gap-6 md:gap-10 w-full px-4">
+<!-- Incorrect Choice 1 -->
+<button class="relative w-20 h-20 rounded-full bg-secondary-container border-b-[8px] border-[#c9a630] shadow-[0_8px_0_0_#c9a630,0_15px_20px_rgba(252,208,61,0.4)] active:translate-y-[8px] active:shadow-[0_0px_0_0_#c9a630,0_5px_10px_rgba(252,208,61,0.4)] active:border-b-0 transition-all flex items-center justify-center group touch-manipulation">
+<div class="absolute inset-2 rounded-full bg-white/20 opacity-0 group-hover:opacity-100 transition-opacity"></div>
+<span class="font-display-lg text-display-lg text-on-secondary-container mt-2">م</span>
+</button>
+<!-- Correct Choice -->
+<button class="relative w-24 h-24 rounded-full bg-tertiary-container border-b-[10px] border-[#4a9655] shadow-[0_10px_0_0_#4a9655,0_20px_25px_rgba(93,189,107,0.4)] active:translate-y-[10px] active:shadow-[0_0px_0_0_#4a9655,0_8px_15px_rgba(93,189,107,0.4)] active:border-b-0 transition-all flex items-center justify-center group touch-manipulation z-10 -translate-y-2">
+<div class="absolute inset-2 rounded-full bg-white/20 opacity-0 group-hover:opacity-100 transition-opacity"></div>
+<span class="font-display-lg text-[56px] leading-[64px] font-extrabold text-on-tertiary-container mt-2">ح</span>
+</button>
+<!-- Incorrect Choice 2 -->
+<button class="relative w-20 h-20 rounded-full bg-primary-container border-b-[8px] border-[#3391ba] shadow-[0_8px_0_0_#3391ba,0_15px_20px_rgba(64,181,232,0.4)] active:translate-y-[8px] active:shadow-[0_0px_0_0_#3391ba,0_5px_10px_rgba(64,181,232,0.4)] active:border-b-0 transition-all flex items-center justify-center group touch-manipulation">
+<div class="absolute inset-2 rounded-full bg-white/20 opacity-0 group-hover:opacity-100 transition-opacity"></div>
+<span class="font-display-lg text-display-lg text-on-primary-container mt-2">ب</span>
+</button>
+</div>
+</main>
+<!-- BottomNavBar -->
+<nav class="bg-white dark:bg-slate-950 fixed bottom-0 w-full rounded-t-[40px] border-t-4 border-sky-50 dark:border-slate-800 shadow-[0_-10px_30px_rgba(0,0,0,0.05)] fixed bottom-0 left-0 w-full z-50 flex flex-row-reverse justify-around items-center px-4 pb-8 pt-3">
+<!-- Tab 1: الرئيسية -->
+<button class="flex flex-col items-center justify-center text-slate-400 dark:text-slate-600 px-4 py-2 hover:bg-sky-50 dark:hover:bg-slate-800 transition-colors active:scale-90 transition-all duration-150 rounded-2xl w-[72px]">
+<span class="material-symbols-outlined text-[28px]" style="font-variation-settings: 'FILL' 0;">home</span>
+<span class="font-['Plus_Jakarta_Sans'] font-bold text-[11px] mt-1 whitespace-nowrap">الرئيسية</span>
+</button>
+<!-- Tab 2: الألعاب (ACTIVE) -->
+<button class="flex flex-col items-center justify-center bg-sky-100 dark:bg-sky-900/50 text-sky-700 dark:text-sky-300 rounded-[24px] px-6 py-2 border-b-4 border-sky-300 dark:border-sky-700 active:scale-90 transition-all duration-150 active:-translate-y-1 active:border-b-0">
+<span class="material-symbols-outlined text-[32px] text-[#40B5E8]" style="font-variation-settings: 'FILL' 1;">sports_esports</span>
+<span class="font-['Plus_Jakarta_Sans'] font-bold text-sm mt-1 text-[#40B5E8]">الألعاب</span>
+</button>
+<!-- Tab 3: المتجر -->
+<button class="flex flex-col items-center justify-center text-slate-400 dark:text-slate-600 px-4 py-2 hover:bg-sky-50 dark:hover:bg-slate-800 transition-colors active:scale-90 transition-all duration-150 rounded-2xl w-[72px]">
+<span class="material-symbols-outlined text-[28px]" style="font-variation-settings: 'FILL' 0;">shopping_bag</span>
+<span class="font-['Plus_Jakarta_Sans'] font-bold text-[11px] mt-1 whitespace-nowrap">المتجر</span>
+</button>
+<!-- Tab 4: إنجازاتي -->
+<button class="flex flex-col items-center justify-center text-slate-400 dark:text-slate-600 px-4 py-2 hover:bg-sky-50 dark:hover:bg-slate-800 transition-colors active:scale-90 transition-all duration-150 rounded-2xl w-[72px]">
+<span class="material-symbols-outlined text-[28px]" style="font-variation-settings: 'FILL' 0;">emoji_events</span>
+<span class="font-['Plus_Jakarta_Sans'] font-bold text-[11px] mt-1 whitespace-nowrap">إنجازاتي</span>
+</button>
+</nav>
+</body></html>

@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+
+<html dir="rtl" lang="ar"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>عالم الاكتشاف - لعبة الاستبدال</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@600&amp;family=Plus+Jakarta+Sans:wght@400;500;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "outline": "#6e7880",
+                        "on-background": "#1b1c1c",
+                        "on-secondary-fixed-variant": "#574500",
+                        "primary-fixed": "#c2e8ff",
+                        "surface-container-highest": "#e4e2e2",
+                        "inverse-surface": "#303030",
+                        "surface-dim": "#dbd9d9",
+                        "tertiary-fixed-dim": "#7bdb85",
+                        "secondary-fixed-dim": "#edc22e",
+                        "primary-fixed-dim": "#76d1ff",
+                        "tertiary": "#006e29",
+                        "surface-bright": "#fbf9f8",
+                        "surface-tint": "#006688",
+                        "on-error": "#ffffff",
+                        "tertiary-fixed": "#96f89f",
+                        "outline-variant": "#bdc8d0",
+                        "on-tertiary-fixed-variant": "#00531d",
+                        "on-primary": "#ffffff",
+                        "surface-container-lowest": "#ffffff",
+                        "surface": "#fbf9f8",
+                        "on-error-container": "#93000a",
+                        "inverse-on-surface": "#f2f0f0",
+                        "primary": "#006688",
+                        "on-surface": "#1b1c1c",
+                        "on-tertiary": "#ffffff",
+                        "on-primary-fixed": "#001e2c",
+                        "on-secondary-container": "#705900",
+                        "surface-container-low": "#f5f3f3",
+                        "secondary-fixed": "#ffe089",
+                        "error": "#ba1a1a",
+                        "on-tertiary-container": "#004919",
+                        "primary-container": "#40b5e8",
+                        "on-tertiary-fixed": "#002107",
+                        "on-surface-variant": "#3e484f",
+                        "on-secondary-fixed": "#241a00",
+                        "on-secondary": "#ffffff",
+                        "on-primary-container": "#00445c",
+                        "secondary-container": "#fcd03d",
+                        "inverse-primary": "#76d1ff",
+                        "tertiary-container": "#5dbd6b",
+                        "surface-container-high": "#eae8e7",
+                        "surface-container": "#efeded",
+                        "background": "#fbf9f8",
+                        "error-container": "#ffdad6",
+                        "surface-variant": "#e4e2e2",
+                        "secondary": "#745c00",
+                        "on-primary-fixed-variant": "#004d67"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "1rem",
+                        "lg": "2rem",
+                        "xl": "3rem",
+                        "full": "9999px"
+                    },
+                    "spacing": {
+                        "touch-target": "3.5rem",
+                        "stack-gap": "1rem",
+                        "gutter-md": "1.5rem",
+                        "margin-mobile": "1.25rem"
+                    },
+                    "fontFamily": {
+                        "label-bold": ["Lexend"],
+                        "body-sm": ["Plus Jakarta Sans"],
+                        "headline-md": ["Plus Jakarta Sans"],
+                        "body-lg": ["Plus Jakarta Sans"],
+                        "display-lg": ["Plus Jakarta Sans"]
+                    },
+                    "fontSize": {
+                        "label-bold": ["18px", { "lineHeight": "22px", "fontWeight": "600" }],
+                        "body-sm": ["16px", { "lineHeight": "24px", "fontWeight": "400" }],
+                        "headline-md": ["32px", { "lineHeight": "40px", "fontWeight": "700" }],
+                        "body-lg": ["20px", { "lineHeight": "30px", "fontWeight": "500" }],
+                        "display-lg": ["48px", { "lineHeight": "56px", "fontWeight": "800" }]
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background font-body-lg text-on-background h-screen overflow-hidden flex flex-col selection:bg-primary-fixed selection:text-on-primary-fixed">
+<!-- TopAppBar -->
+<header class="bg-sky-50 dark:bg-slate-900 text-[#40B5E8] font-['Plus_Jakarta_Sans'] font-black text-xl docked full-width top-0 border-b-4 border-sky-200 dark:border-sky-800 border-b-4 border-sky-100 dark:border-sky-900 shadow-[0_4px_10px_rgba(64,181,232,0.1)] flex flex-row-reverse justify-between items-center w-full px-6 py-4 z-50">
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 bg-primary-container rounded-full flex items-center justify-center border-2 border-primary border-b-4 overflow-hidden">
+<span class="material-symbols-outlined text-on-primary-container" data-icon="face">face</span>
+</div>
+</div>
+<div class="text-2xl font-black text-sky-600 dark:text-sky-400">عالم الاكتشاف</div>
+<div class="flex items-center bg-surface-container-highest px-4 py-2 rounded-full border-b-2 border-outline-variant">
+<span class="font-label-bold text-label-bold text-secondary">⭐ 120</span>
+</div>
+</header>
+<!-- Main Game Canvas -->
+<main class="flex-1 flex flex-col items-center justify-center relative px-4 pb-24 z-10">
+<!-- Instruction -->
+<h1 class="font-headline-md text-headline-md text-primary mb-8 text-center bg-surface-container-lowest px-8 py-4 rounded-full border-b-4 border-outline-variant shadow-sm">
+            اسحب الحرف لتصحيح الكلمة!
+        </h1>
+<!-- Visual Context Card -->
+<div class="bg-surface-container-lowest border-4 border-outline-variant rounded-xl p-4 mb-10 relative">
+<div class="absolute inset-0 bg-secondary-fixed opacity-20 blur-xl rounded-xl -z-10"></div>
+<img alt="صورة شمس" class="w-64 h-64 object-cover rounded-xl border-b-8 border-secondary-container bg-secondary-fixed" data-alt="Bright, vibrant illustration of a happy, smiling cartoon sun radiating warm yellow light in a clear blue sky, highly tactile, playful style for a children's educational app" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDnlzKYW65JWRAYATImZ3XU4UUTvRNjOpyb2XouvMv8WpphtLaCNHc-J9JrUJiQ3wFoiC5VUkBw4yxBFOg1FUpPTYjw9L1W5tYSQCQy-Cn-CcPV7MOxPshD3QgqKOPlB-lEeZoenZHdO-G4oAWxgb_ELEl9VFJsez-zF7Ng0p3lHde2AeSTaY-E1esfxQ1GkyoomhwawLleYR7jmxCQuF98N4h15kxly8v-9odET8wsJ4uyQxZC8agYk2O28VzsGnngkZ9W8q6M1Zk"/>
+</div>
+<!-- Target Word Area -->
+<div class="flex gap-4 items-center justify-center mb-16" dir="ltr">
+<!-- Drop Zone (Incorrect Letter) -->
+<div class="w-24 h-28 bg-surface-container rounded-lg border-4 border-dashed border-error flex items-center justify-center relative overflow-hidden">
+<span class="font-display-lg text-display-lg text-outline opacity-50">ق</span>
+<div class="absolute inset-0 bg-error-container opacity-20 pointer-events-none"></div>
+</div>
+<!-- Fixed Letters -->
+<div class="w-24 h-28 bg-surface-container-lowest rounded-lg border-4 border-outline-variant border-b-8 flex items-center justify-center">
+<span class="font-display-lg text-display-lg text-on-surface">م</span>
+</div>
+<div class="w-24 h-28 bg-surface-container-lowest rounded-lg border-4 border-outline-variant border-b-8 flex items-center justify-center">
+<span class="font-display-lg text-display-lg text-on-surface">ر</span>
+</div>
+</div>
+<!-- Letter Bank (Draggable Items) -->
+<div class="flex gap-6 mt-auto">
+<!-- Distractor -->
+<div class="w-20 h-20 bg-primary-container text-on-primary-container rounded-full flex items-center justify-center font-display-lg text-display-lg border-4 border-primary border-b-8 cursor-pointer touch-none active:border-b-4 active:translate-y-1 transition-all">
+                س
+            </div>
+<!-- Correct Letter -->
+<div class="w-20 h-20 bg-tertiary-container text-on-tertiary-container rounded-full flex items-center justify-center font-display-lg text-display-lg border-4 border-tertiary border-b-8 cursor-pointer touch-none active:border-b-4 active:translate-y-1 transition-all relative z-20 shadow-lg">
+                ش
+            </div>
+<!-- Distractor -->
+<div class="w-20 h-20 bg-secondary-container text-on-secondary-container rounded-full flex items-center justify-center font-display-lg text-display-lg border-4 border-secondary border-b-8 cursor-pointer touch-none active:border-b-4 active:translate-y-1 transition-all">
+                ص
+            </div>
+</div>
+</main>
+<!-- BottomNavBar -->
+<nav class="bg-white dark:bg-slate-950 text-[#40B5E8] font-['Plus_Jakarta_Sans'] font-bold text-sm text-sky-500 fixed bottom-0 w-full rounded-t-[40px] border-t-4 border-sky-100 dark:border-sky-900 border-t-4 border-sky-50 dark:border-slate-800 shadow-[0_-10px_30px_rgba(0,0,0,0.05)] fixed bottom-0 left-0 w-full z-50 flex flex-row-reverse justify-around items-center px-4 pb-8 pt-3">
+<!-- Inactive Tab -->
+<div class="flex flex-col items-center justify-center text-slate-400 dark:text-slate-600 px-4 py-2 hover:bg-sky-50 dark:hover:bg-slate-800 transition-colors active:scale-90 transition-all duration-150">
+<span class="material-symbols-outlined mb-1" data-icon="home">home</span>
+<span>الرئيسية</span>
+</div>
+<!-- Active Tab (الألعاب - Games) -->
+<div class="flex flex-col items-center justify-center bg-sky-100 dark:bg-sky-900/50 text-sky-700 dark:text-sky-300 rounded-[24px] px-6 py-2 border-b-4 border-sky-300 dark:border-sky-700 hover:bg-sky-50 dark:hover:bg-slate-800 transition-colors active:scale-90 transition-all duration-150">
+<span class="material-symbols-outlined mb-1" data-icon="sports_esports" data-weight="fill">sports_esports</span>
+<span>الألعاب</span>
+</div>
+<!-- Inactive Tab -->
+<div class="flex flex-col items-center justify-center text-slate-400 dark:text-slate-600 px-4 py-2 hover:bg-sky-50 dark:hover:bg-slate-800 transition-colors active:scale-90 transition-all duration-150">
+<span class="material-symbols-outlined mb-1" data-icon="shopping_bag">shopping_bag</span>
+<span>المتجر</span>
+</div>
+<!-- Inactive Tab -->
+<div class="flex flex-col items-center justify-center text-slate-400 dark:text-slate-600 px-4 py-2 hover:bg-sky-50 dark:hover:bg-slate-800 transition-colors active:scale-90 transition-all duration-150">
+<span class="material-symbols-outlined mb-1" data-icon="emoji_events">emoji_events</span>
+<span>إنجازاتي</span>
+</div>
+</nav>
+</body></html>

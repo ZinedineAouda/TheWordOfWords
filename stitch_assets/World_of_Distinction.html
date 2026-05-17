@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+
+<html dir="rtl" lang="ar"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport"/>
+<title>عالم الاكتشاف - الألعاب</title>
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@600&amp;family=Plus+Jakarta+Sans:wght@400;500;700;800&amp;display=swap" rel="stylesheet"/>
+<!-- Material Symbols -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind CSS -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<!-- Tailwind Config -->
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "outline": "#6e7880",
+                    "on-background": "#1b1c1c",
+                    "on-secondary-fixed-variant": "#574500",
+                    "primary-fixed": "#c2e8ff",
+                    "surface-container-highest": "#e4e2e2",
+                    "inverse-surface": "#303030",
+                    "surface-dim": "#dbd9d9",
+                    "tertiary-fixed-dim": "#7bdb85",
+                    "secondary-fixed-dim": "#edc22e",
+                    "primary-fixed-dim": "#76d1ff",
+                    "tertiary": "#006e29",
+                    "surface-bright": "#fbf9f8",
+                    "surface-tint": "#006688",
+                    "on-error": "#ffffff",
+                    "tertiary-fixed": "#96f89f",
+                    "outline-variant": "#bdc8d0",
+                    "on-tertiary-fixed-variant": "#00531d",
+                    "on-primary": "#ffffff",
+                    "surface-container-lowest": "#ffffff",
+                    "surface": "#fbf9f8",
+                    "on-error-container": "#93000a",
+                    "inverse-on-surface": "#f2f0f0",
+                    "primary": "#006688",
+                    "on-surface": "#1b1c1c",
+                    "on-tertiary": "#ffffff",
+                    "on-primary-fixed": "#001e2c",
+                    "on-secondary-container": "#705900",
+                    "surface-container-low": "#f5f3f3",
+                    "secondary-fixed": "#ffe089",
+                    "error": "#ba1a1a",
+                    "on-tertiary-container": "#004919",
+                    "primary-container": "#40b5e8",
+                    "on-tertiary-fixed": "#002107",
+                    "on-surface-variant": "#3e484f",
+                    "on-secondary-fixed": "#241a00",
+                    "on-secondary": "#ffffff",
+                    "on-primary-container": "#00445c",
+                    "secondary-container": "#fcd03d",
+                    "inverse-primary": "#76d1ff",
+                    "tertiary-container": "#5dbd6b",
+                    "surface-container-high": "#eae8e7",
+                    "surface-container": "#efeded",
+                    "background": "#fbf9f8",
+                    "error-container": "#ffdad6",
+                    "surface-variant": "#e4e2e2",
+                    "secondary": "#745c00",
+                    "on-primary-fixed-variant": "#004d67"
+            },
+            "borderRadius": {
+                    "DEFAULT": "1rem",
+                    "lg": "2rem",
+                    "xl": "3rem",
+                    "full": "9999px"
+            },
+            "spacing": {
+                    "touch-target": "3.5rem",
+                    "stack-gap": "1rem",
+                    "gutter-md": "1.5rem",
+                    "margin-mobile": "1.25rem"
+            },
+            "fontFamily": {
+                    "label-bold": [
+                            "Lexend"
+                    ],
+                    "body-sm": [
+                            "Plus Jakarta Sans"
+                    ],
+                    "headline-md": [
+                            "Plus Jakarta Sans"
+                    ],
+                    "body-lg": [
+                            "Plus Jakarta Sans"
+                    ],
+                    "display-lg": [
+                            "Plus Jakarta Sans"
+                    ]
+            },
+            "fontSize": {
+                    "label-bold": [
+                            "18px",
+                            {
+                                    "lineHeight": "22px",
+                                    "fontWeight": "600"
+                            }
+                    ],
+                    "body-sm": [
+                            "16px",
+                            {
+                                    "lineHeight": "24px",
+                                    "fontWeight": "400"
+                            }
+                    ],
+                    "headline-md": [
+                            "32px",
+                            {
+                                    "lineHeight": "40px",
+                                    "fontWeight": "700"
+                            }
+                    ],
+                    "body-lg": [
+                            "20px",
+                            {
+                                    "lineHeight": "30px",
+                                    "fontWeight": "500"
+                            }
+                    ],
+                    "display-lg": [
+                            "48px",
+                            {
+                                    "lineHeight": "56px",
+                                    "fontWeight": "800"
+                            }
+                    ]
+            }
+          }
+        }
+      }
+    </script>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background h-screen w-screen overflow-hidden text-on-background font-body-lg text-body-lg select-none">
+<!-- TopAppBar -->
+<header class="fixed top-0 w-full border-b-4 border-sky-200 bg-sky-50 shadow-[0_4px_10px_rgba(64,181,232,0.1)] flex flex-row-reverse justify-between items-center px-6 py-4 z-50">
+<!-- Leading Avatar -->
+<div class="w-12 h-12 rounded-full overflow-hidden border-2 border-sky-300 bg-white flex items-center justify-center shrink-0">
+<img alt="صورة الطفل" class="w-full h-full object-cover" data-alt="close up of a happy smiling 6 year old arab child with curly dark hair, soft studio lighting, vibrant colors" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDB-ZPFiR8jwjTUa8DSdODN_Q9EIbUEV1oKJzt8UBq-H4r6u02NuwD4LFnciKBdmKb1w6-x4-LntWxxxqaGLgGPmFJm-OBBQ5fzQcawPoDOBHRjQegr3BNN-Dfpa627gtDjZwV2lk2Gn6fCNamm7gNDSnPBddGaK0ctuOS_KFjArvMrwyd3VJObeRgIOBI8VA7awXnLC9GCAwx25Bd_5FG1Wpx1wJz3hGkuZbgqEvwJA_F3wFjr2dlX6E1gAdf5fCn1wR4saV6kO48"/>
+</div>
+<!-- Headline -->
+<h1 class="font-['Plus_Jakarta_Sans'] font-black text-xl text-sky-600 truncate px-4">عالم الاكتشاف</h1>
+<!-- Trailing Action -->
+<div class="flex items-center gap-1 font-['Plus_Jakarta_Sans'] font-black text-xl text-sky-600 shrink-0">
+<span class="text-secondary-container drop-shadow-sm">⭐</span>
+<span>120</span>
+</div>
+</header>
+<!-- Main Game Canvas -->
+<main class="flex flex-col items-center justify-center h-full pt-[88px] pb-[104px] px-6 w-full max-w-md mx-auto relative z-10">
+<!-- Whimsical Background Elements -->
+<div class="absolute inset-0 z-[-1] overflow-hidden pointer-events-none">
+<div class="absolute top-1/4 left-0 w-64 h-64 bg-primary-fixed rounded-full mix-blend-multiply filter blur-3xl opacity-50 animate-blob"></div>
+<div class="absolute top-1/3 right-0 w-64 h-64 bg-secondary-fixed rounded-full mix-blend-multiply filter blur-3xl opacity-50 animate-blob animation-delay-2000"></div>
+</div>
+<!-- Discovery Tile (Image Container) -->
+<div class="w-full aspect-square max-w-[260px] bg-surface-container-lowest rounded-xl border-4 border-outline shadow-[0_8px_0_0_#bdc8d0] flex items-center justify-center p-6 mb-8 relative group">
+<!-- Ambient Glow -->
+<div class="absolute inset-x-8 -bottom-4 h-8 bg-secondary-container rounded-full blur-xl opacity-40"></div>
+<img alt="صندوق" class="w-full h-full object-contain relative z-10 drop-shadow-2xl group-hover:scale-105 transition-transform duration-300" data-alt="a brightly colored wooden toy box open slightly revealing glowing magical golden particles inside, soft studio lighting, vibrant colors, 3d rendered cartoon style, isolated on white background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCty-0HzMbAhL3GURlajobIoL1EHKeSTW1FmIkPeVPwD7e9oG3FUlteiU1xpIy3e260OEbCnkFiEMYM_zYsBYKCj_p1VRpFKAfPU5HNZJ1DdcOSAgqvzDmv-0Sig707hzBlLnX48579hnTCM80lfVE9p3qD11J1GxroCn9O5y_4aAWLFzDh4ffQ5I4kMXY7nHtlv0XuFfVYTE3pUYi5Shezixd6ZPzZBhvO2RKZXCLNP1v7yTzLEIvVP4OKgzuwItTgQQhrVSrn6Yg"/>
+</div>
+<!-- Interactive Options -->
+<div class="w-full flex flex-col gap-5 max-w-[320px]">
+<!-- Option 1: Incorrect -->
+<button class="w-full bg-secondary-container border-b-4 border-secondary rounded-xl py-5 px-6 font-display-lg text-display-lg text-on-secondary-container hover:brightness-95 active:border-b-0 active:translate-y-1 transition-all flex items-center justify-center shadow-sm">
+                صندوك
+            </button>
+<!-- Option 2: Correct -->
+<button class="w-full bg-primary-container border-b-4 border-primary rounded-xl py-5 px-6 font-display-lg text-display-lg text-on-primary-container hover:brightness-95 active:border-b-0 active:translate-y-1 transition-all flex items-center justify-center shadow-sm">
+                صندوق
+            </button>
+</div>
+</main>
+<!-- BottomNavBar -->
+<nav class="fixed bottom-0 left-0 w-full z-50 flex flex-row-reverse justify-around items-center px-4 pb-8 pt-3 bg-white rounded-t-[40px] border-t-4 border-sky-100 shadow-[0_-10px_30px_rgba(0,0,0,0.05)]">
+<!-- الرئيسية -->
+<div class="flex flex-col items-center justify-center text-slate-400 px-4 py-2 hover:bg-sky-50 transition-colors active:scale-90 transition-all duration-150 cursor-pointer">
+<span class="material-symbols-outlined text-3xl" style="font-variation-settings: 'FILL' 1;">home</span>
+<span class="font-['Plus_Jakarta_Sans'] font-bold text-sm mt-1">الرئيسية</span>
+</div>
+<!-- الألعاب (Active) -->
+<div class="flex flex-col items-center justify-center bg-sky-100 text-sky-700 rounded-[24px] px-6 py-2 border-b-4 border-sky-300 active:scale-90 transition-all duration-150 cursor-pointer">
+<span class="material-symbols-outlined text-3xl" style="font-variation-settings: 'FILL' 1;">sports_esports</span>
+<span class="font-['Plus_Jakarta_Sans'] font-bold text-sm mt-1">الألعاب</span>
+</div>
+<!-- المتجر -->
+<div class="flex flex-col items-center justify-center text-slate-400 px-4 py-2 hover:bg-sky-50 transition-colors active:scale-90 transition-all duration-150 cursor-pointer">
+<span class="material-symbols-outlined text-3xl" style="font-variation-settings: 'FILL' 1;">shopping_bag</span>
+<span class="font-['Plus_Jakarta_Sans'] font-bold text-sm mt-1">المتجر</span>
+</div>
+<!-- إنجازاتي -->
+<div class="flex flex-col items-center justify-center text-slate-400 px-4 py-2 hover:bg-sky-50 transition-colors active:scale-90 transition-all duration-150 cursor-pointer">
+<span class="material-symbols-outlined text-3xl" style="font-variation-settings: 'FILL' 1;">emoji_events</span>
+<span class="font-['Plus_Jakarta_Sans'] font-bold text-sm mt-1">إنجازاتي</span>
+</div>
+</nav>
+</body></html>

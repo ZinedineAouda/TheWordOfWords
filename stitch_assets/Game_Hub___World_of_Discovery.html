@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+
+<html dir="rtl" lang="ar"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Game Selection Hub</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;600&amp;family=Plus+Jakarta+Sans:wght@400;500;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+  tailwind.config = {
+    darkMode: "class",
+    theme: {
+      extend: {
+        "colors": {
+                "outline": "#6e7880",
+                "on-background": "#1b1c1c",
+                "on-secondary-fixed-variant": "#574500",
+                "primary-fixed": "#c2e8ff",
+                "surface-container-highest": "#e4e2e2",
+                "inverse-surface": "#303030",
+                "surface-dim": "#dbd9d9",
+                "tertiary-fixed-dim": "#7bdb85",
+                "secondary-fixed-dim": "#edc22e",
+                "primary-fixed-dim": "#76d1ff",
+                "tertiary": "#006e29",
+                "surface-bright": "#fbf9f8",
+                "surface-tint": "#006688",
+                "on-error": "#ffffff",
+                "tertiary-fixed": "#96f89f",
+                "outline-variant": "#bdc8d0",
+                "on-tertiary-fixed-variant": "#00531d",
+                "on-primary": "#ffffff",
+                "surface-container-lowest": "#ffffff",
+                "surface": "#fbf9f8",
+                "on-error-container": "#93000a",
+                "inverse-on-surface": "#f2f0f0",
+                "primary": "#006688",
+                "on-surface": "#1b1c1c",
+                "on-tertiary": "#ffffff",
+                "on-primary-fixed": "#001e2c",
+                "on-secondary-container": "#705900",
+                "surface-container-low": "#f5f3f3",
+                "secondary-fixed": "#ffe089",
+                "error": "#ba1a1a",
+                "on-tertiary-container": "#004919",
+                "primary-container": "#40b5e8",
+                "on-tertiary-fixed": "#002107",
+                "on-surface-variant": "#3e484f",
+                "on-secondary-fixed": "#241a00",
+                "on-secondary": "#ffffff",
+                "on-primary-container": "#00445c",
+                "secondary-container": "#fcd03d",
+                "inverse-primary": "#76d1ff",
+                "tertiary-container": "#5dbd6b",
+                "surface-container-high": "#eae8e7",
+                "surface-container": "#efeded",
+                "background": "#fbf9f8",
+                "error-container": "#ffdad6",
+                "surface-variant": "#e4e2e2",
+                "secondary": "#745c00",
+                "on-primary-fixed-variant": "#004d67"
+        },
+        "borderRadius": {
+                "DEFAULT": "1rem",
+                "lg": "2rem",
+                "xl": "3rem",
+                "full": "9999px"
+        },
+        "spacing": {
+                "touch-target": "3.5rem",
+                "stack-gap": "1rem",
+                "gutter-md": "1.5rem",
+                "margin-mobile": "1.25rem"
+        },
+        "fontFamily": {
+                "label-bold": [
+                        "Lexend"
+                ],
+                "body-sm": [
+                        "Plus Jakarta Sans"
+                ],
+                "headline-md": [
+                        "Plus Jakarta Sans"
+                ],
+                "body-lg": [
+                        "Plus Jakarta Sans"
+                ],
+                "display-lg": [
+                        "Plus Jakarta Sans"
+                ]
+        },
+        "fontSize": {
+                "label-bold": [
+                        "18px",
+                        {
+                                "lineHeight": "22px",
+                                "fontWeight": "600"
+                        }
+                ],
+                "body-sm": [
+                        "16px",
+                        {
+                                "lineHeight": "24px",
+                                "fontWeight": "400"
+                        }
+                ],
+                "headline-md": [
+                        "32px",
+                        {
+                                "lineHeight": "40px",
+                                "fontWeight": "700"
+                        }
+                ],
+                "body-lg": [
+                        "20px",
+                        {
+                                "lineHeight": "30px",
+                                "fontWeight": "500"
+                        }
+                ],
+                "display-lg": [
+                        "48px",
+                        {
+                                "lineHeight": "56px",
+                                "fontWeight": "800"
+                        }
+                ]
+        }
+},
+    },
+  }
+</script>
+<style>
+  body {
+    background-color: theme('colors.background');
+    color: theme('colors.on-background');
+  }
+</style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background text-on-background min-h-screen flex flex-col font-body-lg overflow-x-hidden">
+<!-- TopAppBar -->
+<header class="bg-sky-50 dark:bg-slate-900 border-b-4 border-sky-200 dark:border-sky-800 shadow-[0_4px_10px_rgba(64,181,232,0.1)] w-full z-50 sticky top-0 px-6 py-4 flex flex-row-reverse justify-between items-center">
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 rounded-full overflow-hidden border-2 border-outline-variant bg-surface-container">
+<img alt="صورة الطفل" class="w-full h-full object-cover" data-alt="Playful cartoon avatar of a happy child wearing a cap" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAagQ088yC5AEM_brbwGdacmPbSXqP5vA49UPrBAh0ZR5Gxy95YRRvStU7DzUjuNROaltkfYH2PCPfCrb1J9pMZKi-lOv7jeDxH0BRX5Rg_6tRTvTZozA3tsf-x8BdidCjYVwdKfyDHUnV-3AuWaS0B6Tm9gFT9hrUZngr23gpmb0M4zq0jQ3VSsUOZxLxfeGXnsNb1aezkk4F2x1xloi1vUmPD9LGZSRTAGVcUKQKGwDhdR_TdCelF1RPJY5RM62bD6SAxFXXPnH8"/>
+</div>
+</div>
+<div class="font-['Plus_Jakarta_Sans'] font-black text-xl text-sky-600 dark:text-sky-400">
+      عالم الاكتشاف
+    </div>
+<div class="flex items-center gap-2 px-4 py-2 bg-surface-container rounded-full shadow-sm border-b-2 border-outline-variant">
+<span class="material-symbols-outlined text-secondary-fixed-dim" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-label-bold text-label-bold text-on-surface">120</span>
+</div>
+</header>
+<!-- Main Content Canvas -->
+<main class="flex-1 px-gutter-md py-8 max-w-7xl mx-auto w-full mb-24 md:mb-8">
+<div class="mb-stack-gap text-center">
+<h1 class="font-display-lg text-display-lg text-primary mb-4">اختر عالمك للعب!</h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto">انطلق في مغامرة شيقة وتعلم مهارات جديدة في كل عالم.</p>
+</div>
+<!-- Bento Grid for Worlds -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6 mt-8">
+<!-- World 1: Deletion -->
+<button class="group relative flex flex-col items-center justify-between p-6 bg-surface-container-lowest rounded-xl border-2 border-outline-variant hover:border-primary-container shadow-sm hover:shadow-md transition-all duration-200 ease-in-out hover:-translate-y-1 h-[320px] overflow-hidden">
+<div class="absolute inset-0 bg-primary-fixed-dim opacity-10 rounded-xl pointer-events-none group-hover:opacity-20 transition-opacity"></div>
+<div class="w-24 h-24 mb-4 bg-primary-container rounded-full flex items-center justify-center shadow-inner border-2 border-primary-fixed-dim">
+<span class="material-symbols-outlined text-on-primary text-[48px]" data-icon="backspace" data-weight="fill" style="font-variation-settings: 'FILL' 1;">backspace</span>
+</div>
+<h2 class="font-headline-md text-headline-md text-primary text-center mb-2 z-10 relative">عالم الحذف</h2>
+<div class="w-full mt-auto z-10 relative">
+<div class="flex justify-between items-center mb-2">
+<span class="font-body-sm text-body-sm text-on-surface-variant">التقدم</span>
+<span class="font-label-bold text-label-bold text-primary">80%</span>
+</div>
+<div class="w-full bg-surface-dim rounded-full h-4 overflow-hidden border border-outline-variant border-opacity-50">
+<div class="bg-tertiary-container h-full rounded-full" style="width: 80%;"></div>
+</div>
+</div>
+<div class="absolute bottom-0 left-0 w-full h-2 bg-outline-variant opacity-20 rounded-b-xl"></div>
+</button>
+<!-- World 2: Similar Letters -->
+<button class="group relative flex flex-col items-center justify-between p-6 bg-surface-container-lowest rounded-xl border-2 border-outline-variant hover:border-secondary-container shadow-sm hover:shadow-md transition-all duration-200 ease-in-out hover:-translate-y-1 h-[320px] overflow-hidden">
+<div class="absolute inset-0 bg-secondary-fixed-dim opacity-10 rounded-xl pointer-events-none group-hover:opacity-20 transition-opacity"></div>
+<div class="w-24 h-24 mb-4 bg-secondary-container rounded-full flex items-center justify-center shadow-inner border-2 border-secondary-fixed">
+<span class="material-symbols-outlined text-on-secondary-container text-[48px]" data-icon="join_inner" data-weight="fill" style="font-variation-settings: 'FILL' 1;">join_inner</span>
+</div>
+<h2 class="font-headline-md text-headline-md text-secondary-container text-center mb-2 z-10 relative text-on-surface">عالم الحروف المتشابهة</h2>
+<div class="w-full mt-auto z-10 relative">
+<div class="flex justify-between items-center mb-2">
+<span class="font-body-sm text-body-sm text-on-surface-variant">التقدم</span>
+<span class="font-label-bold text-label-bold text-secondary-container text-on-surface">45%</span>
+</div>
+<div class="w-full bg-surface-dim rounded-full h-4 overflow-hidden border border-outline-variant border-opacity-50">
+<div class="bg-secondary-container h-full rounded-full" style="width: 45%;"></div>
+</div>
+</div>
+<div class="absolute bottom-0 left-0 w-full h-2 bg-outline-variant opacity-20 rounded-b-xl"></div>
+</button>
+<!-- World 3: Substitution -->
+<button class="group relative flex flex-col items-center justify-between p-6 bg-surface-container-lowest rounded-xl border-2 border-outline-variant hover:border-tertiary-container shadow-sm hover:shadow-md transition-all duration-200 ease-in-out hover:-translate-y-1 h-[320px] overflow-hidden lg:col-span-1 xl:col-span-1">
+<div class="absolute inset-0 bg-tertiary-fixed-dim opacity-10 rounded-xl pointer-events-none group-hover:opacity-20 transition-opacity"></div>
+<div class="w-24 h-24 mb-4 bg-tertiary-container rounded-full flex items-center justify-center shadow-inner border-2 border-tertiary-fixed">
+<span class="material-symbols-outlined text-on-tertiary-container text-[48px]" data-icon="swap_horiz" data-weight="fill" style="font-variation-settings: 'FILL' 1;">swap_horiz</span>
+</div>
+<h2 class="font-headline-md text-headline-md text-tertiary text-center mb-2 z-10 relative">عالم الإبدال</h2>
+<div class="w-full mt-auto z-10 relative">
+<div class="flex justify-between items-center mb-2">
+<span class="font-body-sm text-body-sm text-on-surface-variant">التقدم</span>
+<span class="font-label-bold text-label-bold text-tertiary">10%</span>
+</div>
+<div class="w-full bg-surface-dim rounded-full h-4 overflow-hidden border border-outline-variant border-opacity-50">
+<div class="bg-tertiary-container h-full rounded-full" style="width: 10%;"></div>
+</div>
+</div>
+<div class="absolute bottom-0 left-0 w-full h-2 bg-outline-variant opacity-20 rounded-b-xl"></div>
+</button>
+<!-- World 4: Addition -->
+<button class="group relative flex flex-col items-center justify-between p-6 bg-surface-container-lowest rounded-xl border-2 border-outline-variant hover:border-primary-container shadow-sm hover:shadow-md transition-all duration-200 ease-in-out hover:-translate-y-1 h-[320px] overflow-hidden md:col-span-2 lg:col-span-1 xl:col-span-1">
+<div class="absolute inset-0 bg-primary-fixed opacity-10 rounded-xl pointer-events-none group-hover:opacity-20 transition-opacity"></div>
+<div class="w-24 h-24 mb-4 bg-primary-fixed-dim rounded-full flex items-center justify-center shadow-inner border-2 border-primary-fixed">
+<span class="material-symbols-outlined text-on-primary-fixed text-[48px]" data-icon="add_circle" data-weight="fill" style="font-variation-settings: 'FILL' 1;">add_circle</span>
+</div>
+<h2 class="font-headline-md text-headline-md text-primary text-center mb-2 z-10 relative">عالم الإضافة</h2>
+<div class="w-full mt-auto z-10 relative">
+<div class="flex justify-between items-center mb-2">
+<span class="font-body-sm text-body-sm text-on-surface-variant">التقدم</span>
+<span class="font-label-bold text-label-bold text-primary">0%</span>
+</div>
+<div class="w-full bg-surface-dim rounded-full h-4 overflow-hidden border border-outline-variant border-opacity-50">
+<div class="bg-tertiary-container h-full rounded-full" style="width: 0%;"></div>
+</div>
+</div>
+<div class="absolute bottom-0 left-0 w-full h-2 bg-outline-variant opacity-20 rounded-b-xl"></div>
+</button>
+<!-- World 5: Distinction -->
+<button class="group relative flex flex-col items-center justify-between p-6 bg-surface-container-lowest rounded-xl border-2 border-outline-variant hover:border-secondary-container shadow-sm hover:shadow-md transition-all duration-200 ease-in-out hover:-translate-y-1 h-[320px] overflow-hidden lg:col-span-2 xl:col-span-1 opacity-75 grayscale-[50%]">
+<div class="absolute inset-0 bg-surface-dim opacity-10 rounded-xl pointer-events-none"></div>
+<div class="absolute inset-0 flex items-center justify-center bg-surface-container-lowest bg-opacity-60 z-20 rounded-xl">
+<span class="material-symbols-outlined text-on-surface-variant text-[64px]" data-icon="lock" style="font-variation-settings: 'FILL' 1;">lock</span>
+</div>
+<div class="w-24 h-24 mb-4 bg-secondary-fixed rounded-full flex items-center justify-center shadow-inner border-2 border-secondary-fixed-dim">
+<span class="material-symbols-outlined text-on-secondary-fixed text-[48px]" data-icon="stars" data-weight="fill" style="font-variation-settings: 'FILL' 1;">stars</span>
+</div>
+<h2 class="font-headline-md text-headline-md text-secondary-container text-center mb-2 z-10 relative text-on-surface">عالم القلب</h2>
+<div class="w-full mt-auto z-10 relative">
+<div class="flex justify-between items-center mb-2">
+<span class="font-body-sm text-body-sm text-on-surface-variant">التقدم</span>
+<span class="font-label-bold text-label-bold text-on-surface-variant">مغلق</span>
+</div>
+<div class="w-full bg-surface-dim rounded-full h-4 overflow-hidden border border-outline-variant border-opacity-50">
+<div class="bg-surface-variant h-full rounded-full" style="width: 0%;"></div>
+</div>
+</div>
+<div class="absolute bottom-0 left-0 w-full h-2 bg-outline-variant opacity-20 rounded-b-xl"></div>
+</button>
+</div>
+</main>
+<!-- BottomNavBar (Mobile Only) -->
+<nav class="md:hidden fixed bottom-0 left-0 w-full z-50 flex flex-row-reverse justify-around items-center px-4 pb-8 pt-3 bg-white dark:bg-slate-950 rounded-t-[40px] border-t-4 border-sky-100 dark:border-sky-900 shadow-[0_-10px_30px_rgba(0,0,0,0.05)]">
+<!-- Inactive Item -->
+<a class="flex flex-col items-center justify-center text-slate-400 dark:text-slate-600 px-4 py-2 hover:bg-sky-50 dark:hover:bg-slate-800 transition-colors active:scale-90 duration-150 rounded-[24px]" href="#">
+<span class="material-symbols-outlined mb-1" data-icon="home">home</span>
+<span class="font-['Plus_Jakarta_Sans'] font-bold text-sm">الرئيسية</span>
+</a>
+<!-- Active Item -->
+<a class="flex flex-col items-center justify-center bg-sky-100 dark:bg-sky-900/50 text-sky-700 dark:text-sky-300 rounded-[24px] px-6 py-2 border-b-4 border-sky-300 dark:border-sky-700 hover:bg-sky-50 dark:hover:bg-slate-800 transition-colors active:scale-90 duration-150" href="#">
+<span class="material-symbols-outlined mb-1" data-icon="sports_esports" data-weight="fill" style="font-variation-settings: 'FILL' 1;">sports_esports</span>
+<span class="font-['Plus_Jakarta_Sans'] font-bold text-sm">الألعاب</span>
+</a>
+<!-- Inactive Item -->
+<a class="flex flex-col items-center justify-center text-slate-400 dark:text-slate-600 px-4 py-2 hover:bg-sky-50 dark:hover:bg-slate-800 transition-colors active:scale-90 duration-150 rounded-[24px]" href="#">
+<span class="material-symbols-outlined mb-1" data-icon="shopping_bag">shopping_bag</span>
+<span class="font-['Plus_Jakarta_Sans'] font-bold text-sm">المتجر</span>
+</a>
+<!-- Inactive Item -->
+<a class="flex flex-col items-center justify-center text-slate-400 dark:text-slate-600 px-4 py-2 hover:bg-sky-50 dark:hover:bg-slate-800 transition-colors active:scale-90 duration-150 rounded-[24px]" href="#">
+<span class="material-symbols-outlined mb-1" data-icon="emoji_events">emoji_events</span>
+<span class="font-['Plus_Jakarta_Sans'] font-bold text-sm">إنجازاتي</span>
+</a>
+</nav>
+<!-- Side Navigation (Web Only) -->
+<aside class="hidden md:flex flex-col fixed right-0 top-0 h-full w-64 bg-surface-container-lowest border-l-2 border-outline-variant pt-24 pb-8 z-40 shadow-sm">
+<div class="flex-1 px-4 flex flex-col gap-2">
+<a class="flex items-center gap-3 px-4 py-3 rounded-xl text-on-surface-variant hover:bg-surface-container transition-colors min-h-[56px]" href="#">
+<span class="material-symbols-outlined" data-icon="home">home</span>
+<span class="font-label-bold text-label-bold">الرئيسية</span>
+</a>
+<a class="flex items-center gap-3 px-4 py-3 rounded-xl bg-primary-container text-on-primary-container font-bold border-b-4 border-primary-fixed-dim min-h-[56px]" href="#">
+<span class="material-symbols-outlined" data-icon="sports_esports" data-weight="fill" style="font-variation-settings: 'FILL' 1;">sports_esports</span>
+<span class="font-label-bold text-label-bold">الألعاب</span>
+</a>
+<a class="flex items-center gap-3 px-4 py-3 rounded-xl text-on-surface-variant hover:bg-surface-container transition-colors min-h-[56px]" href="#">
+<span class="material-symbols-outlined" data-icon="shopping_bag">shopping_bag</span>
+<span class="font-label-bold text-label-bold">المتجر</span>
+</a>
+<a class="flex items-center gap-3 px-4 py-3 rounded-xl text-on-surface-variant hover:bg-surface-container transition-colors min-h-[56px]" href="#">
+<span class="material-symbols-outlined" data-icon="emoji_events">emoji_events</span>
+<span class="font-label-bold text-label-bold">إنجازاتي</span>
+</a>
+</div>
+</aside>
+<!-- Content padding adjustment for Web SideNav -->
+<style>
+      @media (min-width: 768px) {
+          main {
+              margin-right: 16rem; /* 64 * 0.25rem = 16rem */
+          }
+      }
+  </style>
+</body></html>

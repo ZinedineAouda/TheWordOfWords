@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+
+<html dir="rtl" lang="ar"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>إنجازاتي - عالم الاكتشاف</title>
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;600&amp;family=Plus+Jakarta+Sans:wght@400;500;700;800;900&amp;display=swap" rel="stylesheet"/>
+<!-- Material Symbols -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind CSS -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<!-- Tailwind Config from Design System -->
+<script id="tailwind-config">
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              "colors": {
+                      "outline": "#6e7880",
+                      "on-background": "#1b1c1c",
+                      "on-secondary-fixed-variant": "#574500",
+                      "primary-fixed": "#c2e8ff",
+                      "surface-container-highest": "#e4e2e2",
+                      "inverse-surface": "#303030",
+                      "surface-dim": "#dbd9d9",
+                      "tertiary-fixed-dim": "#7bdb85",
+                      "secondary-fixed-dim": "#edc22e",
+                      "primary-fixed-dim": "#76d1ff",
+                      "tertiary": "#006e29",
+                      "surface-bright": "#fbf9f8",
+                      "surface-tint": "#006688",
+                      "on-error": "#ffffff",
+                      "tertiary-fixed": "#96f89f",
+                      "outline-variant": "#bdc8d0",
+                      "on-tertiary-fixed-variant": "#00531d",
+                      "on-primary": "#ffffff",
+                      "surface-container-lowest": "#ffffff",
+                      "surface": "#fbf9f8",
+                      "on-error-container": "#93000a",
+                      "inverse-on-surface": "#f2f0f0",
+                      "primary": "#006688",
+                      "on-surface": "#1b1c1c",
+                      "on-tertiary": "#ffffff",
+                      "on-primary-fixed": "#001e2c",
+                      "on-secondary-container": "#705900",
+                      "surface-container-low": "#f5f3f3",
+                      "secondary-fixed": "#ffe089",
+                      "error": "#ba1a1a",
+                      "on-tertiary-container": "#004919",
+                      "primary-container": "#40b5e8",
+                      "on-tertiary-fixed": "#002107",
+                      "on-surface-variant": "#3e484f",
+                      "on-secondary-fixed": "#241a00",
+                      "on-secondary": "#ffffff",
+                      "on-primary-container": "#00445c",
+                      "secondary-container": "#fcd03d",
+                      "inverse-primary": "#76d1ff",
+                      "tertiary-container": "#5dbd6b",
+                      "surface-container-high": "#eae8e7",
+                      "surface-container": "#efeded",
+                      "background": "#fbf9f8",
+                      "error-container": "#ffdad6",
+                      "surface-variant": "#e4e2e2",
+                      "secondary": "#745c00",
+                      "on-primary-fixed-variant": "#004d67"
+              },
+              "borderRadius": {
+                      "DEFAULT": "1rem",
+                      "lg": "2rem",
+                      "xl": "3rem",
+                      "full": "9999px"
+              },
+              "spacing": {
+                      "touch-target": "3.5rem",
+                      "stack-gap": "1rem",
+                      "gutter-md": "1.5rem",
+                      "margin-mobile": "1.25rem"
+              },
+              "fontFamily": {
+                      "label-bold": [
+                              "Lexend"
+                      ],
+                      "body-sm": [
+                              "Plus Jakarta Sans"
+                      ],
+                      "headline-md": [
+                              "Plus Jakarta Sans"
+                      ],
+                      "body-lg": [
+                              "Plus Jakarta Sans"
+                      ],
+                      "display-lg": [
+                              "Plus Jakarta Sans"
+                      ]
+              },
+              "fontSize": {
+                      "label-bold": [
+                              "18px",
+                              {
+                                      "lineHeight": "22px",
+                                      "fontWeight": "600"
+                              }
+                      ],
+                      "body-sm": [
+                              "16px",
+                              {
+                                      "lineHeight": "24px",
+                                      "fontWeight": "400"
+                              }
+                      ],
+                      "headline-md": [
+                              "32px",
+                              {
+                                      "lineHeight": "40px",
+                                      "fontWeight": "700"
+                              }
+                      ],
+                      "body-lg": [
+                              "20px",
+                              {
+                                      "lineHeight": "30px",
+                                      "fontWeight": "500"
+                              }
+                      ],
+                      "display-lg": [
+                              "48px",
+                              {
+                                      "lineHeight": "56px",
+                                      "fontWeight": "800"
+                              }
+                      ]
+              }
+            }
+          }
+        }
+    </script>
+<style>
+        /* Base touch targets for accessibility */
+        button, a, [role="button"] {
+            min-height: 3.5rem;
+            min-width: 3.5rem;
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background text-on-background min-h-screen relative pb-32">
+<!-- TopAppBar Shared Component -->
+<header class="bg-sky-50 dark:bg-slate-900 text-[#40B5E8] font-['Plus_Jakarta_Sans'] font-black text-xl text-2xl font-black text-sky-600 dark:text-sky-400 docked full-width top-0 border-b-4 border-sky-200 dark:border-sky-800 border-b-4 border-sky-100 dark:border-sky-900 shadow-[0_4px_10px_rgba(64,181,232,0.1)] flex flex-row-reverse justify-between items-center w-full px-6 py-4 z-50 fixed top-0">
+<!-- Leading Avatar -->
+<div class="w-12 h-12 rounded-full overflow-hidden border-2 border-primary-container shadow-sm bg-white shrink-0">
+<img alt="صورة الطفل" class="w-full h-full object-cover" data-alt="close up of a happy smiling child's face illustration, vibrant playful colors, 3d clay style, soft lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCd_AmKPm9gpxAiIZBHPzor64OaD2vOYk13Eo2E42LI0jNxeX9ajlfoQ98nc9Vaza3SK4469OZeRmVZJgjagj17F_fAIH34KlyIpMSyG_mOsqAoaGdGz8JxshhMxfPeipl5uXLPs-cpzVSv6Y5Z4hAomOPunhHAZg66IH_Qs5P8CfyGZcT6LEqrxf44xCaKCw8GPF817hAn_Czlyn-InoRhAQzYx8ye7T27SQ6toyKotsV8wg4ggm_-88n011PdzwteKoCm2__uTYs"/>
+</div>
+<!-- Headline -->
+<h1 class="flex-1 text-center font-['Plus_Jakarta_Sans'] font-black text-xl text-sky-600 dark:text-sky-400">
+            عالم الاكتشاف
+        </h1>
+<!-- Trailing Action -->
+<div class="flex items-center gap-1 bg-white px-3 py-1.5 rounded-full shadow-sm border-b-2 border-sky-100 shrink-0">
+<span class="font-label-bold text-sky-600 text-sm">120</span>
+<span class="material-symbols-outlined text-secondary-container" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+</header>
+<!-- Main Content Canvas -->
+<main class="pt-28 px-gutter-md flex flex-col gap-stack-gap max-w-2xl mx-auto">
+<!-- Hero Stats Section: Glowing Tactile Cards -->
+<section class="grid grid-cols-2 gap-4">
+<!-- Stars Won Card -->
+<button class="bg-secondary-container border-b-4 border-secondary rounded-xl p-5 flex flex-col items-center justify-center shadow-[0_8px_20px_rgba(252,208,61,0.3)] relative overflow-hidden active:translate-y-1 active:border-b-0 transition-all duration-200 group w-full">
+<!-- Decorative background blob -->
+<div class="absolute -top-4 -right-4 w-16 h-16 bg-white/20 rounded-full blur-lg group-active:scale-150 transition-transform"></div>
+<span class="material-symbols-outlined text-display-lg text-secondary mb-2 drop-shadow-md" style="font-variation-settings: 'FILL' 1;">star</span>
+<div class="flex flex-col items-center">
+<span class="font-headline-md text-on-secondary-container">120</span>
+<span class="font-body-sm text-secondary font-bold">النجوم</span>
+</div>
+</button>
+<!-- Total Coins Card -->
+<button class="bg-primary-container border-b-4 border-primary rounded-xl p-5 flex flex-col items-center justify-center shadow-[0_8px_20px_rgba(64,181,232,0.3)] relative overflow-hidden active:translate-y-1 active:border-b-0 transition-all duration-200 group w-full">
+<!-- Decorative background blob -->
+<div class="absolute -top-4 -left-4 w-16 h-16 bg-white/20 rounded-full blur-lg group-active:scale-150 transition-transform"></div>
+<span class="material-symbols-outlined text-display-lg text-on-primary-container mb-2 drop-shadow-md" style="font-variation-settings: 'FILL' 1;">toll</span>
+<div class="flex flex-col items-center">
+<span class="font-headline-md text-on-primary-container">450</span>
+<span class="font-body-sm text-primary font-bold">العملات</span>
+</div>
+</button>
+</section>
+<!-- Divider -->
+<div class="w-full h-1 bg-surface-container-highest rounded-full my-2"></div>
+<!-- Badges / Awards List Section -->
+<section class="flex flex-col gap-6">
+<h2 class="font-headline-md text-on-background text-right">شارات العوالم</h2>
+<!-- World Group 1: Jungle World -->
+<div class="bg-surface rounded-xl p-4 border-2 border-surface-container-highest shadow-sm">
+<div class="flex items-center gap-2 mb-4">
+<div class="w-10 h-10 rounded-full bg-tertiary-container flex items-center justify-center border-b-2 border-tertiary">
+<span class="material-symbols-outlined text-on-tertiary-container" style="font-variation-settings: 'FILL' 1;">forest</span>
+</div>
+<h3 class="font-label-bold text-on-surface-variant">عالم الغابة</h3>
+</div>
+<!-- Bento Grid for Badges -->
+<div class="grid grid-cols-3 gap-3">
+<!-- Unlocked Badge 1 -->
+<div class="bg-tertiary-container border-b-4 border-tertiary rounded-[24px] p-3 flex flex-col items-center justify-center text-center shadow-[0_4px_12px_rgba(93,189,107,0.2)]">
+<div class="w-14 h-14 rounded-full bg-white flex items-center justify-center mb-2 shadow-inner border-2 border-tertiary">
+<span class="material-symbols-outlined text-tertiary text-3xl" style="font-variation-settings: 'FILL' 1;">emoji_nature</span>
+</div>
+<span class="font-label-bold text-on-tertiary-container text-xs">مستكشف</span>
+</div>
+<!-- Unlocked Badge 2 -->
+<div class="bg-secondary-container border-b-4 border-secondary rounded-[24px] p-3 flex flex-col items-center justify-center text-center shadow-[0_4px_12px_rgba(252,208,61,0.2)]">
+<div class="w-14 h-14 rounded-full bg-white flex items-center justify-center mb-2 shadow-inner border-2 border-secondary">
+<span class="material-symbols-outlined text-secondary text-3xl" style="font-variation-settings: 'FILL' 1;">pets</span>
+</div>
+<span class="font-label-bold text-on-secondary-container text-xs">صديق</span>
+</div>
+<!-- Locked Badge -->
+<div class="bg-surface-dim border-b-4 border-outline-variant rounded-[24px] p-3 flex flex-col items-center justify-center text-center opacity-80 grayscale">
+<div class="w-14 h-14 rounded-full bg-surface-container-highest flex items-center justify-center mb-2 shadow-inner border-2 border-outline-variant">
+<span class="material-symbols-outlined text-outline text-3xl">lock</span>
+</div>
+<span class="font-body-sm text-on-surface-variant text-xs">سر الغابة</span>
+</div>
+</div>
+</div>
+<!-- World Group 2: Space World -->
+<div class="bg-surface rounded-xl p-4 border-2 border-surface-container-highest shadow-sm">
+<div class="flex items-center gap-2 mb-4">
+<div class="w-10 h-10 rounded-full bg-primary-container flex items-center justify-center border-b-2 border-primary">
+<span class="material-symbols-outlined text-on-primary-container" style="font-variation-settings: 'FILL' 1;">rocket_launch</span>
+</div>
+<h3 class="font-label-bold text-on-surface-variant">عالم الفضاء</h3>
+</div>
+<!-- Bento Grid for Badges -->
+<div class="grid grid-cols-3 gap-3">
+<!-- Unlocked Badge 1 -->
+<div class="bg-primary-container border-b-4 border-primary rounded-[24px] p-3 flex flex-col items-center justify-center text-center shadow-[0_4px_12px_rgba(64,181,232,0.2)]">
+<div class="w-14 h-14 rounded-full bg-white flex items-center justify-center mb-2 shadow-inner border-2 border-primary">
+<span class="material-symbols-outlined text-primary text-3xl" style="font-variation-settings: 'FILL' 1;">public</span>
+</div>
+<span class="font-label-bold text-on-primary-container text-xs">رائد فضاء</span>
+</div>
+<!-- Locked Badge -->
+<div class="bg-surface-dim border-b-4 border-outline-variant rounded-[24px] p-3 flex flex-col items-center justify-center text-center opacity-80 grayscale">
+<div class="w-14 h-14 rounded-full bg-surface-container-highest flex items-center justify-center mb-2 shadow-inner border-2 border-outline-variant">
+<span class="material-symbols-outlined text-outline text-3xl">lock</span>
+</div>
+<span class="font-body-sm text-on-surface-variant text-xs">نجم لامع</span>
+</div>
+<!-- Locked Badge -->
+<div class="bg-surface-dim border-b-4 border-outline-variant rounded-[24px] p-3 flex flex-col items-center justify-center text-center opacity-80 grayscale">
+<div class="w-14 h-14 rounded-full bg-surface-container-highest flex items-center justify-center mb-2 shadow-inner border-2 border-outline-variant">
+<span class="material-symbols-outlined text-outline text-3xl">lock</span>
+</div>
+<span class="font-body-sm text-on-surface-variant text-xs">كوكب جديد</span>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- BottomNavBar Shared Component -->
+<nav class="bg-white dark:bg-slate-950 font-['Plus_Jakarta_Sans'] font-bold text-sm fixed bottom-0 w-full rounded-t-[40px] border-t-4 border-sky-100 dark:border-sky-900 border-t-4 border-sky-50 dark:border-slate-800 shadow-[0_-10px_30px_rgba(0,0,0,0.05)] fixed bottom-0 left-0 w-full z-50 flex flex-row-reverse justify-around items-center px-4 pb-8 pt-3 md:hidden">
+<!-- Tab: الرئيسية (Inactive) -->
+<button class="flex flex-col items-center justify-center text-slate-400 dark:text-slate-600 px-4 py-2 hover:bg-sky-50 dark:hover:bg-slate-800 transition-colors active:scale-90 transition-all duration-150">
+<span class="material-symbols-outlined mb-1">home</span>
+<span class="text-xs mt-1">الرئيسية</span>
+</button>
+<!-- Tab: الألعاب (Inactive) -->
+<button class="flex flex-col items-center justify-center text-slate-400 dark:text-slate-600 px-4 py-2 hover:bg-sky-50 dark:hover:bg-slate-800 transition-colors active:scale-90 transition-all duration-150">
+<span class="material-symbols-outlined mb-1">sports_esports</span>
+<span class="text-xs mt-1">الألعاب</span>
+</button>
+<!-- Tab: المتجر (Inactive) -->
+<button class="flex flex-col items-center justify-center text-slate-400 dark:text-slate-600 px-4 py-2 hover:bg-sky-50 dark:hover:bg-slate-800 transition-colors active:scale-90 transition-all duration-150">
+<span class="material-symbols-outlined mb-1">shopping_bag</span>
+<span class="text-xs mt-1">المتجر</span>
+</button>
+<!-- Tab: إنجازاتي (Active) -->
+<button class="flex flex-col items-center justify-center bg-sky-100 dark:bg-sky-900/50 text-sky-700 dark:text-sky-300 rounded-[24px] px-6 py-2 border-b-4 border-sky-300 dark:border-sky-700 hover:bg-sky-50 dark:hover:bg-slate-800 transition-colors active:scale-90 transition-all duration-150">
+<span class="material-symbols-outlined mb-1" style="font-variation-settings: 'FILL' 1;">emoji_events</span>
+<span class="text-xs mt-1">إنجازاتي</span>
+</button>
+</nav>
+</body></html>
