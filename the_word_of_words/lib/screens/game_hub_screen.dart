@@ -228,6 +228,7 @@ class _GameHubScreenState extends State<GameHubScreen> {
                   const Offset(0.25, 0.55),
                   const Offset(0.75, 0.40),
                   const Offset(0.25, 0.25),
+                  const Offset(0.75, 0.10),
                 ];
 
             return Stack(

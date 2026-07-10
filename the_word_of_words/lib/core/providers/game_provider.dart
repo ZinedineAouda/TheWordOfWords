@@ -214,8 +214,21 @@ class GameProvider extends ChangeNotifier {
     }
 
     _userName = prefs.getString('user_name');
+    if (_userName == null) {
+      _userName = 'بطل';
+      prefs.setString('user_name', 'بطل');
+    }
+    
     _userProfileImagePath = prefs.getString('user_profile_image_path');
-    _isFirstTime = prefs.getBool('is_first_time') ?? true;
+    if (_userProfileImagePath == null) {
+      _userProfileImagePath = 'assets/images/hero_explorer.png';
+      prefs.setString('user_profile_image_path', 'assets/images/hero_explorer.png');
+    }
+    
+    _isFirstTime = prefs.getBool('is_first_time') ?? false;
+    if (prefs.getBool('is_first_time') == null) {
+      prefs.setBool('is_first_time', false);
+    }
     
     if (_worlds.isNotEmpty) {
       _applyProgressToWorlds();

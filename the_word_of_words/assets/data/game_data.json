@@ -1310,6 +1310,1028 @@
           ]
         }
       ]
+    },
+    {
+      "id": "world_6",
+      "title": "عالم حركات الحروف",
+      "description": "تعلم التنوين والمد بالألف والواو والياء",
+      "iconAsset": "assets/icons/vowel_world.png",
+      "themeColor": "9C27B0",
+      "isLocked": false,
+      "levels": [
+        {
+          "id": "world_6_lvl_1",
+          "title": "التنوين بالكسر",
+          "isLocked": false,
+          "exercises": [
+            {
+              "id": "ex_w6_l1_1",
+              "type": "imageChoice",
+              "question": "اختر الكلمة التي بها تنوين بالكسر\nذَهَبْتُ إِلَى مَكَانٍ جَمِيلٍ",
+              "correctAnswer": "مَكَانٍ",
+              "options": [
+                "ذَهَبْتُ",
+                "إِلَى",
+                "مَكَانٍ",
+                "جَمِيلٍ"
+              ],
+              "imageAsset": null,
+              "isLocked": false,
+              "correctAnswers": [
+                "مَكَانٍ",
+                "جَمِيلٍ"
+              ]
+            },
+            {
+              "id": "ex_w6_l1_2",
+              "type": "imageChoice",
+              "question": "اختر الكلمة التي بها تنوين بالكسر\nرَأَيْتُ عُصْفُورًا عَلَى غُصْنٍ نَاعِمٍ",
+              "correctAnswer": "غُصْنٍ",
+              "options": [
+                "رَأَيْتُ",
+                "عُصْفُورًا",
+                "عَلَى",
+                "غُصْنٍ",
+                "نَاعِمٍ"
+              ],
+              "imageAsset": null,
+              "isLocked": false,
+              "correctAnswers": [
+                "غُصْنٍ",
+                "نَاعِمٍ"
+              ]
+            },
+            {
+              "id": "ex_w6_l1_3",
+              "type": "imageChoice",
+              "question": "اختر الكلمة التي بها تنوين بالكسر\nوَقَفَ الجُنْدِيُّ فِي مَكَانٍ عَالٍ",
+              "correctAnswer": "مَكَانٍ",
+              "options": [
+                "وَقَفَ",
+                "الجُنْدِيُّ",
+                "فِي",
+                "مَكَانٍ",
+                "عَالٍ"
+              ],
+              "imageAsset": null,
+              "isLocked": false,
+              "correctAnswers": [
+                "مَكَانٍ",
+                "عَالٍ"
+              ]
+            },
+            {
+              "id": "ex_w6_l1_4",
+              "type": "imageChoice",
+              "question": "اختر الكلمة التي بها تنوين بالكسر\nنِمْتُ عَلَى سَرِيرٍ مُرِيحٍ",
+              "correctAnswer": "سَرِيرٍ",
+              "options": [
+                "نِمْتُ",
+                "عَلَى",
+                "سَرِيرٍ",
+                "مُرِيحٍ"
+              ],
+              "imageAsset": null,
+              "isLocked": false,
+              "correctAnswers": [
+                "سَرِيرٍ",
+                "مُرِيحٍ"
+              ]
+            },
+            {
+              "id": "ex_w6_l1_5",
+              "type": "imageChoice",
+              "question": "اختر الكلمة التي بها تنوين بالكسر\nأَكَلْتُ طَعَامًا فِي مَطْعَمٍ نَظِيفٍ",
+              "correctAnswer": "مَطْعَمٍ",
+              "options": [
+                "أَكَلْتُ",
+                "طَعَامًا",
+                "فِي",
+                "مَطْعَمٍ",
+                "نَظِيفٍ"
+              ],
+              "imageAsset": null,
+              "isLocked": false,
+              "correctAnswers": [
+                "مَطْعَمٍ",
+                "نَظِيفٍ"
+              ]
+            },
+            {
+              "id": "ex_w6_l1_6",
+              "type": "imageChoice",
+              "question": "اختر الكلمة التي بها تنوين بالكسر",
+              "correctAnswer": "كَثِيرٍ",
+              "options": [
+                "كَثِيرٍ",
+                "كَثِيرٌ",
+                "كَثِيرًا"
+              ],
+              "imageAsset": null,
+              "isLocked": false,
+              "correctAnswers": [
+                "كَثِيرٍ"
+              ]
+            },
+            {
+              "id": "ex_w6_l1_7",
+              "type": "imageChoice",
+              "question": "اختر الكلمة التي بها تنوين بالكسر",
+              "correctAnswer": "قَرِيبٍ",
+              "options": [
+                "قَرِيبٍ",
+                "قَرِيبٌ",
+                "قَرِيبًا"
+              ],
+              "imageAsset": null,
+              "isLocked": false,
+              "correctAnswers": [
+                "قَرِيبٍ"
+              ]
+            },
+            {
+              "id": "ex_w6_l1_8",
+              "type": "imageChoice",
+              "question": "اختر الكلمة التي بها تنوين بالكسر",
+              "correctAnswer": "جَبَلٍ",
+              "options": [
+                "جَبَلٍ",
+                "جَبَلٌ",
+                "جَبَلًا"
+              ],
+              "imageAsset": null,
+              "isLocked": false,
+              "correctAnswers": [
+                "جَبَلٍ"
+              ]
+            },
+            {
+              "id": "ex_w6_l1_9",
+              "type": "imageChoice",
+              "question": "اختر الكلمة التي بها تنوين بالكسر",
+              "correctAnswer": "طَرِيقٍ",
+              "options": [
+                "طَرِيقٍ",
+                "طَرِيقٌ",
+                "طَرِيقًا"
+              ],
+              "imageAsset": null,
+              "isLocked": false,
+              "correctAnswers": [
+                "طَرِيقٍ"
+              ]
+            },
+            {
+              "id": "ex_w6_l1_10",
+              "type": "imageChoice",
+              "question": "اختر الكلمة التي بها تنوين بالكسر",
+              "correctAnswer": "صَوْتٍ",
+              "options": [
+                "صَوْتٍ",
+                "صَوْتٌ",
+                "صَوْتًا"
+              ],
+              "imageAsset": null,
+              "isLocked": false,
+              "correctAnswers": [
+                "صَوْتٍ"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "world_6_lvl_2",
+          "title": "التنوين بالفتح",
+          "isLocked": false,
+          "exercises": [
+            {
+              "id": "ex_w6_l2_1",
+              "type": "imageChoice",
+              "question": "اختر الكلمة التي بها تنوين بالفتح\nقَرَأْتُ كِتَابًا جَدِيدًا",
+              "correctAnswer": "كِتَابًا",
+              "options": [
+                "قَرَأْتُ",
+                "كِتَابًا",
+                "جَدِيدًا"
+              ],
+              "imageAsset": null,
+              "isLocked": false,
+              "correctAnswers": [
+                "كِتَابًا",
+                "جَدِيدًا"
+              ]
+            },
+            {
+              "id": "ex_w6_l2_2",
+              "type": "imageChoice",
+              "question": "اختر الكلمة التي بها تنوين بالفتح\nشَرِبْتُ مَاءً بَارِدًا",
+              "correctAnswer": "مَاءً",
+              "options": [
+                "شَرِبْتُ",
+                "مَاءً",
+                "بَارِدًا"
+              ],
+              "imageAsset": null,
+              "isLocked": false,
+              "correctAnswers": [
+                "مَاءً",
+                "بَارِدًا"
+              ]
+            },
+            {
+              "id": "ex_w6_l2_3",
+              "type": "imageChoice",
+              "question": "اختر الكلمة التي بها تنوين بالفتح\nرَأَيْتُ طَائِرًا جَمِيلًا",
+              "correctAnswer": "طَائِرًا",
+              "options": [
+                "رَأَيْتُ",
+                "طَائِرًا",
+                "جَمِيلًا"
+              ],
+              "imageAsset": null,
+              "isLocked": false,
+              "correctAnswers": [
+                "طَائِرًا",
+                "جَمِيلًا"
+              ]
+            },
+            {
+              "id": "ex_w6_l2_4",
+              "type": "imageChoice",
+              "question": "اختر الكلمة التي بها تنوين بالفتح\nأَكَلْتُ تُفَّاحًا لَذِيذًا",
+              "correctAnswer": "تُفَّاحًا",
+              "options": [
+                "أَكَلْتُ",
+                "تُفَّاحًا",
+                "لَذِيذًا"
+              ],
+              "imageAsset": null,
+              "isLocked": false,
+              "correctAnswers": [
+                "تُفَّاحًا",
+                "لَذِيذًا"
+              ]
+            },
+            {
+              "id": "ex_w6_l2_5",
+              "type": "imageChoice",
+              "question": "اختر الكلمة التي بها تنوين بالفتح\nسَمِعْتُ صَوْتًا عَالِيًا",
+              "correctAnswer": "صَوْتًا",
+              "options": [
+                "سَمِعْتُ",
+                "صَوْتًا",
+                "عَالِيًا"
+              ],
+              "imageAsset": null,
+              "isLocked": false,
+              "correctAnswers": [
+                "صَوْتًا",
+                "عَالِيًا"
+              ]
+            },
+            {
+              "id": "ex_w6_l2_6",
+              "type": "imageChoice",
+              "question": "اختر الكلمة التي بها تنوين بالفتح",
+              "correctAnswer": "خِيَارًا",
+              "options": [
+                "خِيَارًا",
+                "خِيَارٍ",
+                "خِيَارٌ"
+              ],
+              "imageAsset": null,
+              "isLocked": false,
+              "correctAnswers": [
+                "خِيَارًا"
+              ]
+            },
+            {
+              "id": "ex_w6_l2_7",
+              "type": "imageChoice",
+              "question": "اختر الكلمة التي بها تنوين بالفتح",
+              "correctAnswer": "غُرَابًا",
+              "options": [
+                "غُرَابًا",
+                "غُرَابٍ",
+                "غُرَابٌ"
+              ],
+              "imageAsset": null,
+              "isLocked": false,
+              "correctAnswers": [
+                "غُرَابًا"
+              ]
+            },
+            {
+              "id": "ex_w6_l2_8",
+              "type": "imageChoice",
+              "question": "اختر الكلمة التي بها تنوين بالفتح",
+              "correctAnswer": "وَلَدًا",
+              "options": [
+                "وَلَدًا",
+                "وَلَدٍ",
+                "وَلَدٌ"
+              ],
+              "imageAsset": null,
+              "isLocked": false,
+              "correctAnswers": [
+                "وَلَدًا"
+              ]
+            },
+            {
+              "id": "ex_w6_l2_9",
+              "type": "imageChoice",
+              "question": "اختر الكلمة التي بها تنوين بالفتح",
+              "correctAnswer": "هَدَفًا",
+              "options": [
+                "هَدَفًا",
+                "هَدَفٍ",
+                "هَدَفٌ"
+              ],
+              "imageAsset": null,
+              "isLocked": false,
+              "correctAnswers": [
+                "هَدَفًا"
+              ]
+            },
+            {
+              "id": "ex_w6_l2_10",
+              "type": "imageChoice",
+              "question": "اختر الكلمة التي بها تنوين بالفتح",
+              "correctAnswer": "بَيْتًا",
+              "options": [
+                "بَيْتًا",
+                "بَيْتٍ",
+                "بَيْتٌ"
+              ],
+              "imageAsset": null,
+              "isLocked": false,
+              "correctAnswers": [
+                "بَيْتًا"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "world_6_lvl_3",
+          "title": "التنوين بالضم",
+          "isLocked": false,
+          "exercises": [
+            {
+              "id": "ex_w6_l3_1",
+              "type": "imageChoice",
+              "question": "اختر الكلمة التي بها تنوين بالضم\nهَذِهِ قِطَّةٌ جَمِيلَةٌ",
+              "correctAnswer": "قِطَّةٌ",
+              "options": [
+                "هَذِهِ",
+                "قِطَّةٌ",
+                "جَمِيلَةٌ"
+              ],
+              "imageAsset": null,
+              "isLocked": false,
+              "correctAnswers": [
+                "قِطَّةٌ",
+                "جَمِيلَةٌ"
+              ]
+            },
+            {
+              "id": "ex_w6_l3_2",
+              "type": "imageChoice",
+              "question": "اختر الكلمة التي بها تنوين بالضم\nجَاءَ وَلَدٌ صَغِيرٌ",
+              "correctAnswer": "وَلَدٌ",
+              "options": [
+                "جَاءَ",
+                "وَلَدٌ",
+                "صَغِيرٌ"
+              ],
+              "imageAsset": null,
+              "isLocked": false,
+              "correctAnswers": [
+                "وَلَدٌ",
+                "صَغِيرٌ"
+              ]
+            },
+            {
+              "id": "ex_w6_l3_3",
+              "type": "imageChoice",
+              "question": "اختر الكلمة التي بها تنوين بالضم\nهَذَا كِتَابٌ مُفِيدٌ",
+              "correctAnswer": "كِتَابٌ",
+              "options": [
+                "هَذَا",
+                "كِتَابٌ",
+                "مُفِيدٌ"
+              ],
+              "imageAsset": null,
+              "isLocked": false,
+              "correctAnswers": [
+                "كِتَابٌ",
+                "مُفِيدٌ"
+              ]
+            },
+            {
+              "id": "ex_w6_l3_4",
+              "type": "imageChoice",
+              "question": "اختر الكلمة التي بها تنوين بالضم\nعِنْدِي قَلَمٌ أَزْرَقُ",
+              "correctAnswer": "قَلَمٌ",
+              "options": [
+                "عِنْدِي",
+                "قَلَمٌ",
+                "أَزْرَقُ"
+              ],
+              "imageAsset": null,
+              "isLocked": false,
+              "correctAnswers": [
+                "قَلَمٌ"
+              ]
+            },
+            {
+              "id": "ex_w6_l3_5",
+              "type": "imageChoice",
+              "question": "اختر الكلمة التي بها تنوين بالضم",
+              "correctAnswer": "ضِفْدَعٌ",
+              "options": [
+                "ضِفْدَعٌ",
+                "ضِفْدَعٍ",
+                "ضِفْدَعًا"
+              ],
+              "imageAsset": null,
+              "isLocked": false,
+              "correctAnswers": [
+                "ضِفْدَعٌ"
+              ]
+            },
+            {
+              "id": "ex_w6_l3_6",
+              "type": "imageChoice",
+              "question": "اختر الكلمة التي بها تنوين بالضم",
+              "correctAnswer": "حَقِيبَةٌ",
+              "options": [
+                "حَقِيبَةٌ",
+                "حَقِيبَةٍ",
+                "حَقِيبَةً"
+              ],
+              "imageAsset": null,
+              "isLocked": false,
+              "correctAnswers": [
+                "حَقِيبَةٌ"
+              ]
+            },
+            {
+              "id": "ex_w6_l3_7",
+              "type": "imageChoice",
+              "question": "اختر الكلمة التي بها تنوين بالضم",
+              "correctAnswer": "فَأْرٌ",
+              "options": [
+                "فَأْرٌ",
+                "فَأْرٍ",
+                "فَأْرًا"
+              ],
+              "imageAsset": null,
+              "isLocked": false,
+              "correctAnswers": [
+                "فَأْرٌ"
+              ]
+            },
+            {
+              "id": "ex_w6_l3_8",
+              "type": "imageChoice",
+              "question": "اختر الكلمة التي بها تنوين بالضم",
+              "correctAnswer": "أَسْمَاكٌ",
+              "options": [
+                "أَسْمَاكٌ",
+                "أَسْمَاكٍ",
+                "أَسْمَاكًا"
+              ],
+              "imageAsset": null,
+              "isLocked": false,
+              "correctAnswers": [
+                "أَسْمَاكٌ"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "world_6_lvl_4",
+          "title": "المد بالواو",
+          "isLocked": false,
+          "exercises": [
+            {
+              "id": "ex_w6_l4_1",
+              "type": "imageChoice",
+              "question": "اختر الكلمة التي بها مد بالواو\nأَنَا أَزُورُ أَصْحَابِي",
+              "correctAnswer": "أَزُورُ",
+              "options": [
+                "أَنَا",
+                "أَزُورُ",
+                "أَصْحَابِي"
+              ],
+              "imageAsset": null,
+              "isLocked": false,
+              "correctAnswers": [
+                "أَزُورُ"
+              ]
+            },
+            {
+              "id": "ex_w6_l4_2",
+              "type": "imageChoice",
+              "question": "اختر الكلمة التي بها مد بالواو\nالطُّيُورُ تَطِيرُ فِي السَّمَاءِ",
+              "correctAnswer": "الطُّيُورُ",
+              "options": [
+                "الطُّيُورُ",
+                "تَطِيرُ",
+                "فِي",
+                "السَّمَاءِ"
+              ],
+              "imageAsset": null,
+              "isLocked": false,
+              "correctAnswers": [
+                "الطُّيُورُ"
+              ]
+            },
+            {
+              "id": "ex_w6_l4_3",
+              "type": "imageChoice",
+              "question": "اختر الكلمة التي بها مد بالواو\nنَحْنُ نَعْبُرُ الجُسُورَ",
+              "correctAnswer": "الجُسُورَ",
+              "options": [
+                "نَحْنُ",
+                "نَعْبُرُ",
+                "الجُسُورَ"
+              ],
+              "imageAsset": null,
+              "isLocked": false,
+              "correctAnswers": [
+                "الجُسُورَ"
+              ]
+            },
+            {
+              "id": "ex_w6_l4_4",
+              "type": "imageChoice",
+              "question": "ضَعْ في الوِعَاءِ الكَلِمَةَ التي بها مد بالواو",
+              "correctAnswer": "دُرُوسٌ",
+              "options": [
+                "دُرُوسٌ",
+                "عَامٌّ"
+              ],
+              "imageAsset": null,
+              "isLocked": false,
+              "correctAnswers": [
+                "دُرُوسٌ"
+              ]
+            },
+            {
+              "id": "ex_w6_l4_5",
+              "type": "imageChoice",
+              "question": "ضَعْ في الوِعَاءِ الكَلِمَةَ التي بها مد بالواو",
+              "correctAnswer": "صُدُورٌ",
+              "options": [
+                "صُدُورٌ",
+                "طَبِيبٌ"
+              ],
+              "imageAsset": null,
+              "isLocked": false,
+              "correctAnswers": [
+                "صُدُورٌ"
+              ]
+            },
+            {
+              "id": "ex_w6_l4_6",
+              "type": "imageChoice",
+              "question": "ضَعْ في الوِعَاءِ الكَلِمَةَ التي بها مد بالواو",
+              "correctAnswer": "نُفُوسٌ",
+              "options": [
+                "نُفُوسٌ",
+                "قَدِيمٌ"
+              ],
+              "imageAsset": null,
+              "isLocked": false,
+              "correctAnswers": [
+                "نُفُوسٌ"
+              ]
+            },
+            {
+              "id": "ex_w6_l4_7",
+              "type": "imageChoice",
+              "question": "ضَعْ في الوِعَاءِ الكَلِمَةَ التي بها مد بالواو",
+              "correctAnswer": "سُطُورٌ",
+              "options": [
+                "سُطُورٌ",
+                "كَلِمَةٌ"
+              ],
+              "imageAsset": null,
+              "isLocked": false,
+              "correctAnswers": [
+                "سُطُورٌ"
+              ]
+            },
+            {
+              "id": "ex_w6_l4_8",
+              "type": "imageChoice",
+              "question": "ضَعْ في الوِعَاءِ الكَلِمَةَ التي بها مد بالواو",
+              "correctAnswer": "شُمُوعٌ",
+              "options": [
+                "شُمُوعٌ",
+                "نَجْمَةٌ"
+              ],
+              "imageAsset": null,
+              "isLocked": false,
+              "correctAnswers": [
+                "شُمُوعٌ"
+              ]
+            },
+            {
+              "id": "ex_w6_l4_9",
+              "type": "imageChoice",
+              "question": "ضَعْ في الوِعَاءِ الكَلِمَةَ التي بها مد بالواو",
+              "correctAnswer": "فُنُونٌ",
+              "options": [
+                "فُنُونٌ",
+                "مَدْرَسَةٌ"
+              ],
+              "imageAsset": null,
+              "isLocked": false,
+              "correctAnswers": [
+                "فُنُونٌ"
+              ]
+            },
+            {
+              "id": "ex_w6_l4_10",
+              "type": "imageChoice",
+              "question": "ضَعْ في الوِعَاءِ الكَلِمَةَ التي بها مد بالواو",
+              "correctAnswer": "حُدُودٌ",
+              "options": [
+                "حُدُودٌ",
+                "سَمَكَةٌ"
+              ],
+              "imageAsset": null,
+              "isLocked": false,
+              "correctAnswers": [
+                "حُدُودٌ"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "world_6_lvl_5",
+          "title": "المد بالياء",
+          "isLocked": false,
+          "exercises": [
+            {
+              "id": "ex_w6_l5_1",
+              "type": "imageChoice",
+              "question": "اختر الكلمة التي بها مد بالياء\nهَذَا رَجُلٌ كَبِيرٌ",
+              "correctAnswer": "كَبِيرٌ",
+              "options": [
+                "هَذَا",
+                "رَجُلٌ",
+                "كَبِيرٌ"
+              ],
+              "imageAsset": null,
+              "isLocked": false,
+              "correctAnswers": [
+                "كَبِيرٌ"
+              ]
+            },
+            {
+              "id": "ex_w6_l5_2",
+              "type": "imageChoice",
+              "question": "اختر الكلمة التي بها مد بالياء\nأَنَا أُسَاعِدُ جَارِي",
+              "correctAnswer": "جَارِي",
+              "options": [
+                "أَنَا",
+                "أُسَاعِدُ",
+                "جَارِي"
+              ],
+              "imageAsset": null,
+              "isLocked": false,
+              "correctAnswers": [
+                "جَارِي"
+              ]
+            },
+            {
+              "id": "ex_w6_l5_3",
+              "type": "imageChoice",
+              "question": "اختر الكلمة التي بها مد بالياء\nالطِّفْلُ لَطِيفٌ وَجَمِيلٌ",
+              "correctAnswer": "لَطِيفٌ",
+              "options": [
+                "الطِّفْلُ",
+                "لَطِيفٌ",
+                "وَجَمِيلٌ"
+              ],
+              "imageAsset": null,
+              "isLocked": false,
+              "correctAnswers": [
+                "لَطِيفٌ",
+                "وَجَمِيلٌ"
+              ]
+            },
+            {
+              "id": "ex_w6_l5_4",
+              "type": "imageChoice",
+              "question": "اختر الكلمة التي بها مد بالياء",
+              "correctAnswer": "يَعِيشُ",
+              "options": [
+                "يَعِيشُ",
+                "يَلْعَبُ",
+                "يَكْتُبُ"
+              ],
+              "imageAsset": null,
+              "isLocked": false,
+              "correctAnswers": [
+                "يَعِيشُ"
+              ]
+            },
+            {
+              "id": "ex_w6_l5_5",
+              "type": "imageChoice",
+              "question": "اختر الكلمة التي بها مد بالياء",
+              "correctAnswer": "يَسِيرُ",
+              "options": [
+                "يَسِيرُ",
+                "يَجْلِسُ",
+                "يَذْهَبُ"
+              ],
+              "imageAsset": null,
+              "isLocked": false,
+              "correctAnswers": [
+                "يَسِيرُ"
+              ]
+            },
+            {
+              "id": "ex_w6_l5_6",
+              "type": "imageChoice",
+              "question": "اختر الكلمة التي بها مد بالياء",
+              "correctAnswer": "يَبِيعُ",
+              "options": [
+                "يَبِيعُ",
+                "يَشْرَبُ",
+                "يَأْكُلُ"
+              ],
+              "imageAsset": null,
+              "isLocked": false,
+              "correctAnswers": [
+                "يَبِيعُ"
+              ]
+            },
+            {
+              "id": "ex_w6_l5_7",
+              "type": "imageChoice",
+              "question": "اختر الكلمة التي بها مد بالياء",
+              "correctAnswer": "رَحِيمٌ",
+              "options": [
+                "رَحِيمٌ",
+                "فَرِحٌ",
+                "كَاتِبٌ"
+              ],
+              "imageAsset": null,
+              "isLocked": false,
+              "correctAnswers": [
+                "رَحِيمٌ"
+              ]
+            },
+            {
+              "id": "ex_w6_l5_8",
+              "type": "imageChoice",
+              "question": "اختر الكلمة التي بها مد بالياء",
+              "correctAnswer": "عَظِيمٌ",
+              "options": [
+                "عَظِيمٌ",
+                "عَالِمٌ",
+                "فَاهِمٌ"
+              ],
+              "imageAsset": null,
+              "isLocked": false,
+              "correctAnswers": [
+                "عَظِيمٌ"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "world_6_lvl_6",
+          "title": "المد بالألف",
+          "isLocked": false,
+          "exercises": [
+            {
+              "id": "ex_w6_l6_1",
+              "type": "imageChoice",
+              "question": "اختر الكلمة التي بها مد بالألف\nجَاءَ أَبِي مُبَكِّرًا",
+              "correctAnswer": "جَاءَ",
+              "options": [
+                "جَاءَ",
+                "أَبِي",
+                "مُبَكِّرًا"
+              ],
+              "imageAsset": null,
+              "isLocked": false,
+              "correctAnswers": [
+                "جَاءَ",
+                "مُبَكِّرًا"
+              ]
+            },
+            {
+              "id": "ex_w6_l6_2",
+              "type": "imageChoice",
+              "question": "اختر الكلمة التي بها مد بالألف\nذَهَبَ سَامِي لِلْبَيْتِ",
+              "correctAnswer": "سَامِي",
+              "options": [
+                "ذَهَبَ",
+                "سَامِي",
+                "لِلْبَيْتِ"
+              ],
+              "imageAsset": null,
+              "isLocked": false,
+              "correctAnswers": [
+                "سَامِي"
+              ]
+            },
+            {
+              "id": "ex_w6_l6_3",
+              "type": "imageChoice",
+              "question": "اختر الكلمة التي بها مد بالألف\nنَامَ الوَلَدُ الصَّغِيرُ",
+              "correctAnswer": "نَامَ",
+              "options": [
+                "نَامَ",
+                "الوَلَدُ",
+                "الصَّغِيرُ"
+              ],
+              "imageAsset": null,
+              "isLocked": false,
+              "correctAnswers": [
+                "نَامَ",
+                "الوَلَدُ",
+                "الصَّغِيرُ"
+              ]
+            },
+            {
+              "id": "ex_w6_l6_4",
+              "type": "imageChoice",
+              "question": "اختر الكلمة التي بها مد بالألف\nوَقَفَ جَمَالٌ بِالقُرْبِ",
+              "correctAnswer": "جَمَالٌ",
+              "options": [
+                "وَقَفَ",
+                "جَمَالٌ",
+                "بِالقُرْبِ"
+              ],
+              "imageAsset": null,
+              "isLocked": false,
+              "correctAnswers": [
+                "جَمَالٌ",
+                "بِالقُرْبِ"
+              ]
+            },
+            {
+              "id": "ex_w6_l6_5",
+              "type": "imageChoice",
+              "question": "اختر الكلمة التي تحتوي على الألف الممدودة",
+              "correctAnswer": "صَفَا",
+              "options": [
+                "صَفَا",
+                "كِتَابٌ"
+              ],
+              "imageAsset": null,
+              "isLocked": false,
+              "correctAnswers": [
+                "صَفَا"
+              ]
+            },
+            {
+              "id": "ex_w6_l6_6",
+              "type": "imageChoice",
+              "question": "اختر الكلمة التي تحتوي على الألف الممدودة",
+              "correctAnswer": "غِنَا",
+              "options": [
+                "غِنَا",
+                "قَلَمٌ"
+              ],
+              "imageAsset": null,
+              "isLocked": false,
+              "correctAnswers": [
+                "غِنَا"
+              ]
+            },
+            {
+              "id": "ex_w6_l6_7",
+              "type": "imageChoice",
+              "question": "اختر الكلمة التي تحتوي على الألف الممدودة",
+              "correctAnswer": "رِضَا",
+              "options": [
+                "رِضَا",
+                "مَكْتَبٌ"
+              ],
+              "imageAsset": null,
+              "isLocked": false,
+              "correctAnswers": [
+                "رِضَا"
+              ]
+            },
+            {
+              "id": "ex_w6_l6_8",
+              "type": "imageChoice",
+              "question": "اختر الكلمة التي تحتوي على الألف الممدودة",
+              "correctAnswer": "هَذَا",
+              "options": [
+                "هَذَا",
+                "طِفْلٌ"
+              ],
+              "imageAsset": null,
+              "isLocked": false,
+              "correctAnswers": [
+                "هَذَا"
+              ]
+            },
+            {
+              "id": "ex_w6_l6_9",
+              "type": "imageChoice",
+              "question": "اختر الكلمة التي تحتوي على الألف الممدودة",
+              "correctAnswer": "جَنَا",
+              "options": [
+                "جَنَا",
+                "نَافِذَةٌ"
+              ],
+              "imageAsset": null,
+              "isLocked": false,
+              "correctAnswers": [
+                "جَنَا"
+              ]
+            },
+            {
+              "id": "ex_w6_l6_10",
+              "type": "imageChoice",
+              "question": "اختر الكلمة التي تحتوي على الألف الممدودة",
+              "correctAnswer": "دُعَا",
+              "options": [
+                "دُعَا",
+                "سَيَّارَةٌ"
+              ],
+              "imageAsset": null,
+              "isLocked": false,
+              "correctAnswers": [
+                "دُعَا"
+              ]
+            },
+            {
+              "id": "ex_w6_l6_11",
+              "type": "imageChoice",
+              "question": "اختر الكلمة التي تحتوي على الألف الممدودة",
+              "correctAnswer": "عَصَا",
+              "options": [
+                "عَصَا",
+                "شَمْسٌ"
+              ],
+              "imageAsset": null,
+              "isLocked": false,
+              "correctAnswers": [
+                "عَصَا"
+              ]
+            },
+            {
+              "id": "ex_w6_l6_12",
+              "type": "imageChoice",
+              "question": "اختر الكلمة التي تحتوي على الألف الممدودة",
+              "correctAnswer": "شَكَا",
+              "options": [
+                "شَكَا",
+                "الرُّمَّانُ"
+              ],
+              "imageAsset": null,
+              "isLocked": false,
+              "correctAnswers": [
+                "شَكَا"
+              ]
+            },
+            {
+              "id": "ex_w6_l6_13",
+              "type": "imageChoice",
+              "question": "اختر الكلمة التي تحتوي على الألف الممدودة",
+              "correctAnswer": "رَسَا",
+              "options": [
+                "رَسَا",
+                "الثَّلْجُ"
+              ],
+              "imageAsset": null,
+              "isLocked": false,
+              "correctAnswers": [
+                "رَسَا"
+              ]
+            },
+            {
+              "id": "ex_w6_l6_14",
+              "type": "imageChoice",
+              "question": "اختر الكلمة التي تحتوي على الألف الممدودة",
+              "correctAnswer": "نَمَا",
+              "options": [
+                "نَمَا",
+                "النَّهْرُ"
+              ],
+              "imageAsset": null,
+              "isLocked": false,
+              "correctAnswers": [
+                "نَمَا"
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

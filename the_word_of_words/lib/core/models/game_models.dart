@@ -23,6 +23,7 @@ class Exercise {
   final String? imageAsset;
   final List<String> options;
   final String correctAnswer;
+  final List<String> correctAnswers;
   final String hint;
   final int coinsReward;
   final String? interactionType; // 'click' or 'drag'
@@ -34,6 +35,7 @@ class Exercise {
     this.imageAsset,
     required this.options,
     required this.correctAnswer,
+    this.correctAnswers = const [],
     this.hint = '',
     this.coinsReward = 10,
     this.interactionType,
@@ -47,6 +49,9 @@ class Exercise {
       imageAsset: json['imageAsset'],
       options: List<String>.from(json['options'] ?? []),
       correctAnswer: json['correctAnswer'] ?? '',
+      correctAnswers: json['correctAnswers'] != null 
+          ? List<String>.from(json['correctAnswers']) 
+          : (json['correctAnswer'] != null ? [json['correctAnswer']] : []),
       hint: json['hint'] ?? '',
       coinsReward: json['coinsReward'] ?? 10,
       interactionType: json['interactionType'],
@@ -61,6 +66,7 @@ class Exercise {
       'imageAsset': imageAsset,
       'options': options,
       'correctAnswer': correctAnswer,
+      if (correctAnswers.isNotEmpty) 'correctAnswers': correctAnswers,
       'hint': hint,
       'coinsReward': coinsReward,
       'interactionType': interactionType,
